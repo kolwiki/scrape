@@ -1,0 +1,517 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="generator" content="MediaWiki 1.20.2" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/thekolwiki/opensearch_desc.php" title="TheKolWiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://kol.coldfront.net/thekolwiki/api.php?action=rsd" />
+<link rel="copyright" href="/thekolwiki/index.php/MediaWiki:Copyright" />
+<link rel="alternate" type="application/atom+xml" title="TheKolWiki Atom feed" href="/thekolwiki/index.php?title=Special:RecentChanges&amp;feed=atom" />    <title>Spooky hobo - TheKolWiki</title>
+    <style type="text/css" media="screen">/*<![CDATA[*/ @import "http://kol.coldfront.net/thekolwiki/skins/monobook/maincf.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="http://kol.coldfront.net/thekolwiki/skins/common/commonPrint.css" />
+        <script type="text/javascript" src="/thekolwiki/skins/common/wikibits.js"></script>
+                <link rel="stylesheet" href="http://kol.coldfront.net/thekolwiki/load.php?debug=false&lang=en&modules=site&only=styles&skin=monobook&*" /> 
+  </head>
+  <body          bgcolor="#cfe3eb" style="margin: 5px 10px 5px 10px;">
+<a href="http://kol.coldfront.net/thekolwiki/"><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/logo.jpg" width="169" height="125" border="0" class="toplogo"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+     <td style="border-left: 3px solid #6386a8;" width="160" rowspan="2">&nbsp;</td>
+    <td bgcolor="#6386a8" background="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/top_right.jpg" colspan="3" style="background-position:right; background-repeat:no-repeat;" align="center" height="99">
+
+<!-- PUT THIS TAG IN THE head SECTION -->
+<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-2357921960626041");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-2357921960626041", "Coldfront_160x600");
+  GA_googleAddSlot("ca-pub-2357921960626041", "Coldfront_300x250");
+  GA_googleAddSlot("ca-pub-2357921960626041", "Coldfront_728x90");
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+<!-- END OF TAG FOR head SECTION -->
+
+<script type="text/javascript">
+  GA_googleFillSlot("Coldfront_728x90");
+</script>
+<script type="text/javascript">
+	//Display a message in the case that Adblock is blocked
+	if(document.getElementsByTagName("iframe").item(0) == null)
+{
+    document.write("<div style='width:728px; height:60px;margin-left:5px; padding-top:29px; background-color: white; border : 1px solid #000000; text-align:center;'><img src='http://kol.coldfront.net/favicon.ico'></img></div>");
+}
+</script>
+
+</td>
+  </tr>
+  <tr height="30">
+    <td width="100%" align="center" valign=bottom">
+        <script type="text/javascript"><!--
+google_ad_client = "pub-2357921960626041";
+google_alternate_color = "FFFFFF";
+google_ad_width = 468;
+google_ad_height = 15;
+google_ad_format = "468x15_0ads_al_s";
+google_ad_channel ="4610558790";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0066CC";
+google_color_url = "000000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+	</td>
+    <td width="12" valign="top"><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/google_right.jpg" width="10" height="38"></td>
+    <td bgcolor="#6386a8" rowspan="3" valign="top" style="padding: 0px 5px 0px 5px;" align="center">
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-2357921960626041";
+google_ad_width = 125;
+google_ad_height = 125;
+google_ad_format = "125x125_as";
+google_ad_type = "text_image";
+//2007-08-06: kolwiki_125x125
+google_ad_channel = "2045231347";
+google_color_border = "FFFFFF";
+google_color_bg = "6386A8";
+google_color_link = "469FD2";
+google_color_text = "000000";
+google_color_url = "000000";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+  </script>
+  <br>
+
+<script type="text/javascript">
+  GA_googleFillSlot("Coldfront_160x600");
+</script>
+<script type="text/javascript">
+	//Display a message in the case that Adblock is blocked
+	if(document.getElementsByTagName("iframe").item(0) == null)
+{
+				var adMessage = "Hello! Thank you for using Coldfront services. If you would like to help us cover our costs, please consider <a href='https://adblockplus.org/en/faq_basics#disable'>disabling Adblock for this site</a>. Thanks!";
+    document.write("<div style='width:160px; height:600px;margin-left:5px; padding-top:284px; background-color: white; border : 1px solid #000000; text-align:center;'><img src='http://kol.coldfront.net/favicon.ico'></img><br />" + adMessage + "</div>");
+}
+</script>
+
+<div><p align="center">
+<br />
+</p></div>
+<p><a href="//www.mediawiki.org/"><img src="/thekolwiki/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></p></td>
+  </tr>
+  <tr><td background="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/divider_centre.jpg"><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/divider_left.jpg" width="12" height="19" align="left"></td><td background="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/divider_centre.jpg"></td><td><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/divider_right.jpg" width="10" height="19"></td></tr>
+  <tr>
+    <td style="border-left: 3px solid #6386a8; padding: 0px 5px 0px 5px; width: 186px; background-color:#ededed;" valign="top">
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/thekolwiki/vis_sig.jpg);"
+	    href="/thekolwiki/index.php/Main_Page"
+	    title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Search</label></h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/thekolwiki/index.php/Special:Search" id="searchform">
+	      <input id="searchInput" name="search" type="text"
+	        accesskey="f" value="" />
+	      <br><input type='submit' name="go" class="searchButton" id="searchGoButton"
+	        value="Go"
+	        />&nbsp;<input type='submit' name="fulltext"
+                class="searchButton"
+                value="Search" />
+
+	    </form>
+	  </div>
+	</div>
+		<div class='portlet' id='p-navigation'>
+	  <h5>Navigation</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-mainpage"><a href="/thekolwiki/index.php/Main_Page">Main Page</a></li>
+	     	      <li id="n-portal"><a href="/thekolwiki/index.php/Community">Community</a></li>
+	     	      <li id="n-recentchanges"><a href="/thekolwiki/index.php/Special:RecentChanges">Recent changes</a></li>
+	     	      <li id="n-currentprojects"><a href="/thekolwiki/index.php/TheKolWiki:Current_Projects">Current Projects</a></li>
+	     	      <li id="n-randompage"><a href="/thekolwiki/index.php/Special:Random">Random page</a></li>
+	     	      <li id="n-help"><a href="/thekolwiki/index.php/Help:Contents">Help</a></li>
+	     	      <li id="n-forum"><a href="http://forums.kingdomofloathing.com">Forums</a></li>
+	     	      <li id="n-discuss"><a href="/thekolwiki/index.php/Discussion">Discussion</a></li>
+	     	      <li id="n-coldfront"><a href="http://kol.coldfront.net/">KoL Coldfront</a></li>
+	     	      <li id="n-irc"><a href="http://www.coldfront.net/pjirc/chat.htm">KoL IRC</a></li>
+	     		  <!--- Add the forum link to the navigation bar --->
+<!-- 	      <li><a href="http://kol.thraeryn.org/forum/" target="_blank">Forum</a></li>
+	      <li><a href="http://kol.coldfront.net/">KoL Coldfront</a></li>
+	      <li><a href="http://kol.coldfront.net/index.php/component/option,com_mospjirc/Itemid,86/">KoL IRC</a></li>
+-->	      <!--- End of addition --->
+	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-Coldfront'>
+	  <h5>KoL Coldfront</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-News"><a href="http://kol.coldfront.net/index.php/content/section/1/43/">News</a></li>
+	     	      <li id="n-Custom-Avatar-Gallery"><a href="http://kol.coldfront.net/index.php/content/view/345/53/">Custom Avatar Gallery</a></li>
+	     	      <li id="n-Calendar"><a href="http://kol.coldfront.net/index.php/component/option,com_eventcal/Itemid,135/">Calendar</a></li>
+	     	      <li id="n-KoL-Marketplace-2.0"><a href="http://kol.coldfront.net/index.php/content/view/1903/146/">KoL Marketplace 2.0</a></li>
+	     	      <li id="n-One-Day-Ascension"><a href="http://kol.coldfront.net/index.php/component/option,com_wrapper/Itemid,122/">One Day Ascension</a></li>
+	     	      <li id="n-Uncle-Scottmaley.27s-Amazing-Webcomic.21"><a href="http://kol.coldfront.net/comic/">Uncle Scottmaley's Amazing Webcomic!</a></li>
+	     	      <li id="n-KoL-Radio-Archive"><a href="http://radio.kingdomofloathing.com/">KoL Radio Archive</a></li>
+	     	      <li id="n-Player-Interviews"><a href="http://kol.coldfront.net/index.php/content/view/1780/145/">Player Interviews</a></li>
+	     	      <li id="n-Player-created"><a href="http://kol.coldfront.net/index.php/content/section/10/92/">Player-created</a></li>
+	     	      <li id="n-Media-Reviews-and-Interviews"><a href="http://kol.coldfront.net/index.php/content/section/18/72/">Media Reviews and Interviews</a></li>
+	     		  <!--- Add the forum link to the navigation bar --->
+<!-- 	      <li><a href="http://kol.thraeryn.org/forum/" target="_blank">Forum</a></li>
+	      <li><a href="http://kol.coldfront.net/">KoL Coldfront</a></li>
+	      <li><a href="http://kol.coldfront.net/index.php/component/option,com_mospjirc/Itemid,86/">KoL IRC</a></li>
+-->	      <!--- End of addition --->
+	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-Well-Tempered Tools'>
+	  <h5>Well-Tempered Tools</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-Anvil"><a href="http://kol.coldfront.net/tools/anvil/">Anvil</a></li>
+	     	      <li id="n-Mixologist"><a href="http://kol.coldfront.net/tools/mixology/">Mixologist</a></li>
+	     	      <li id="n-Epicure"><a href="http://kol.coldfront.net/tools/epicure/">Epicure</a></li>
+	     	      <li id="n-Tripping-the-Fog-Fantastic"><a href="http://kol.coldfront.net/tools/fog/">Tripping the Fog Fantastic</a></li>
+	     	      <li id="n-Tour-de-Louvre"><a href="http://kol.coldfront.net/tools/louvre/">Tour de Louvre</a></li>
+	     		  <!--- Add the forum link to the navigation bar --->
+<!-- 	      <li><a href="http://kol.thraeryn.org/forum/" target="_blank">Forum</a></li>
+	      <li><a href="http://kol.coldfront.net/">KoL Coldfront</a></li>
+	      <li><a href="http://kol.coldfront.net/index.php/component/option,com_mospjirc/Itemid,86/">KoL IRC</a></li>
+-->	      <!--- End of addition --->
+	    </ul>
+	  </div>
+	</div>
+		<div class="portlet" id="p-tb">
+	  <h5>Toolbox</h5>
+	  <div class="pBody">
+	    <ul>
+		  		  <li id="t-whatlinkshere"><a href="/thekolwiki/index.php/Special:WhatLinksHere/Spooky_hobo">What links here</a></li>
+		  		  <li id="t-recentchangeslinked"><a href="/thekolwiki/index.php/Special:RecentChangesLinked/Spooky_hobo">Related changes</a></li>
+		  	      	      	      	      	      	      <li id="t-specialpages"><a href="/thekolwiki/index.php/Special:SpecialPages">Special pages</a></li>
+ 
+                <li id="t-print"><a href="/thekolwiki/index.php?title=Spooky_hobo&amp;printable=yes">Printable version</a></li>                <li id="t-permalink"><a href="/thekolwiki/index.php?title=Spooky_hobo&amp;oldid=517463">Permanent link</a></li>	    </ul>
+	  </div><br/>
+	  
+<div class="portlet" id="p-personal">
+	  <h5>Personal tools</h5>
+	  <div class="pBody">
+	    <ul>
+	    <li id="pt-login"><a href="/thekolwiki/index.php?title=Special:UserLogin&amp;returnto=Spooky+hobo">Log in / create account</a></li>	    </ul>
+	  </div>
+	</div>
+	 <p>
+
+		</p>
+	</td>
+    <td width="100%" valign="top" style="padding: 0px 5px 0px 5px; background-color:#ededed;"><table border="0" cellpadding="0" cellspacing="0" id="p-cactions" bgcolor="#ededed" width="100%"><tr><td class="nothing" width="100%">&nbsp;</td>
+				 <td class="selected"><a href="/thekolwiki/index.php/Spooky_hobo"><nobr>Page</nobr></a></td><td class="nothing">&nbsp;</td>
+				 <td><a href="/thekolwiki/index.php/Talk:Spooky_hobo"><nobr>Discussion</nobr></a></td><td class="nothing">&nbsp;</td>
+				 <td><a href="/thekolwiki/index.php?title=Spooky_hobo&amp;action=edit"><nobr>View&nbsp;source</nobr></a></td><td class="nothing">&nbsp;</td>
+				 <td><a href="/thekolwiki/index.php?title=Spooky_hobo&amp;action=history"><nobr>History</nobr></a></td><td class="nothing">&nbsp;</td>
+		</tr></table><table cellspacing="0" width="100%"><tr><td class="pBody">
+		<h1 class="firstHeading">Spooky hobo</h1>
+	<h3 id="siteSub">From TheKolWiki</h3>
+	<div id="contentSub"></div>
+			<!-- start content -->
+	<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table style="border: 1px solid black; margin: auto; text-align: center" cellspacing="2">
+<tr>
+<td style="border: 1px solid black"> <a href="/thekolwiki/index.php/Spading" title="Spading"><img alt="Spadebal.gif" src="http://cdn.coldfront.net/thekolwiki/images/5/5e/Spadebal.gif" width="30" height="30" /></a>
+</td>
+<td> There are some vague or non-exact figures and information on this page. Some <a href="/thekolwiki/index.php/Category:Needs_Spading" title="Category:Needs Spading">spading</a> is required.
+<dl><dd><br /><b>Special attack damage.</b>
+</dd></dl>
+</td></tr></table>
+<p><br />
+</p>
+<table class="infobox" style="width: 23em; text-align: left; font-size: 75%;">
+
+<tr>
+<th colspan="2" align="center"> <a href="/thekolwiki/index.php/Data:Spooky_hobo" title="Data:Spooky hobo">Spooky hobo</a>
+</th></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Monsters_by_number" title="Monsters by number">Monster ID</a>
+</th>
+<td> <i>unknown</i>
+</td></tr>
+<tr>
+<th width="30%"> <a href="/thekolwiki/index.php/Locations" title="Locations">Locations</a>
+</th>
+<td> <a href="/thekolwiki/index.php/The_Ancient_Hobo_Burial_Ground" title="The Ancient Hobo Burial Ground">The Ancient Hobo Burial Ground</a>
+</td></tr>
+<tr>
+<th> Hit Points
+</th>
+<td> 500
+</td></tr>
+<tr>
+<th> Attack
+</th>
+<td> 350
+</td></tr>
+<tr>
+<th> Defense
+</th>
+<td> 315
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Safe_Adventuring" title="Safe Adventuring">No-Hit</a>
+</th>
+<td>360
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Combat_Initiative" title="Combat Initiative">Initiative</a>
+</th>
+<td> 100
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Meat" title="Meat">Meat</a>
+</th>
+<td> None
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Monster_Types" title="Monster Types">Phylum</a>
+</th>
+<td> hobo
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Elements" title="Elements">Elements</a>
+</th>
+<td> <a href="/thekolwiki/index.php/Spooky" title="Spooky"><span style="color:gray;">spooky</span></a>
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Physical_Resistance" title="Physical Resistance">Resistance</a>
+</th>
+<td> None
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Monster_Parts" title="Monster Parts">Monster Parts</a>
+</th>
+<td> <i>unknown</i>
+</td></tr>
+<tr>
+<td colspan="2">
+<dl><dt><a href="/thekolwiki/index.php/Items_from_Monsters" title="Items from Monsters">Drops</a>
+</dt><dd><a href="/thekolwiki/index.php/Asleep_in_the_Cemetery" title="Asleep in the Cemetery">Asleep in the Cemetery</a>, <a href="/thekolwiki/index.php/Comfy_coffin" title="Comfy coffin">comfy coffin</a>,  <a href="/thekolwiki/index.php/Hobo_nickel" title="Hobo nickel">hobo nickel</a>, <a href="/thekolwiki/index.php/Let_Me_Be!" title="Let Me Be!">Let Me Be!</a>, <a href="/thekolwiki/index.php/Spooky_bindle" title="Spooky bindle">spooky bindle</a>
+</dd></dl>
+</td></tr>
+
+
+
+
+
+
+
+
+
+
+<tr>
+<th> <a href="/thekolwiki/index.php/Monster_Manuel_(S)#Spooky_hobo" title="Monster Manuel (S)">Manuel&#160;Entry</a>
+</th></tr>
+<tr>
+<td colspan="2" style="font-size: smaller; text-align: right;"> <a rel="nofollow" class="external text" href="http://kol.coldfront.net/thekolwiki/index.php?title=Data:Spooky_hobo&amp;action=edit">edit data</a>
+</td></tr></table><div style="text-align:center"><a href="/thekolwiki/index.php/File:Spookyhobo6.gif" class="image" title="Spooky hobo"><img alt="Spooky hobo" src="http://cdn.coldfront.net/thekolwiki/images/0/0d/Spookyhobo6.gif" width="100" height="100" /></a>&#160;You're fighting a Spooky hobo</div>
+<p>You pause to consider the great number of open graves in the Hobo's Graveyard. What could have caused all of these dead hobos to reanimate into horrible undead creatures? Some kind of sorcery? you wonder aloud.
+</p><p>"Naw, &lt;son/Lady&gt;, tain't nothin' so complicated as sorcery," says a voice behind you. You turn to see one of the hobo zombies, grinning. "We're just wanderers, y'know? Never could stay in one place when we was alive, ain't surprisin' that bein' dead didn't stop us neither."
+</p><p>"Well, that makes a kind of sense, I guess," you say.
+</p><p>"Ayup. Oh by the way, GRAAAAAAAAAAGH." 
+</p>
+<center><i>or</i></center>
+<p>A hobo pulls himself out of a grave next to you. "Lookie what I can do, &lt;son/Lady&gt;!" he says. "Since I am dead, I can take off my head to recite Shakespearean quotations!" He pops off his head, holds it in front of him, and says "Alas, poor Yorick, I knew him well."
+</p><p>"Well," you say, "<i>technically</i>, it's 'alas, poor Yorick. I knew him, Horatio... Aieee!"
+</p><p>You know, it's never a good idea to piss off the undead. 
+</p>
+<center><i>or</i></center>
+<p>You sit on a nearby gravestone to rest, and start to pour a fotie out on the ground in respect for the dead.
+</p><p>A half-decomposed arm bursts out of the ground and grabs your leg! A rotting skull pops out next to it and (after coughing out a mouthful of dirt) growls, "Consarn it, what the hell d'you think yer doin' wastin' perfectly good booze like that? You think that stuff just grows on trees like cigarettes? You need learned a lesson, &lt;boy/girl&gt;!" 
+</p>
+<center><i>or</i></center>
+<p>Suddenly, a booming, disembodied voice echoes all around you, making you wish you had brought a change of underwear. "Darkness falls across the land," it entones. "The midnight hour is close at hand. Hobos crawl in search of blood, to terrorize y'all's neighborhood."
+</p><p>"Well," you say, "you had me really scared until you said 'y'all's'. I mean, seriously." You chuckle and turn to go, running smack into an undead hobo. Y'all's had better get ready for a fight. 
+</p>
+<center><i>or</i></center>
+<p>As you sneak through the ancient hobo burial ground, you hear something go whizzing past your ear and crash into the brush in front of you. You spin around and see a hobo behind you, holding a sizable rock in his hand. "What was that for?" you ask. Then you notice that the hobo has dead, empty eyes and his skin is gray and decomposing.
+</p><p>"The soil of a hobo's heart is stonier," he says. "A hobo grows what he can... and tends it."
+</p><p>The hobo advances on you, tossing the rock in one hand. Freaky!
+</p><p><i>Hit Message(s):</i>
+</p>
+<div style="text-align:center">
+<p>He grins widely, his decaying lips cracking, and whistles a jaunty tune. Creepy!
+<b><span style="color:red">Oof! Argh! Argh! Ugh!</span></b> (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)
+</p><p>He whistles, and a gaunt dog with glowing red eyes comes bounding up. It howls an unearthly, sepulchral moan. Brrrr. <b><span style="color:red">Eek! Ow! Eek! Eek!</span></b> (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)
+</p><p>He carves a hobo sign on the ground. The sign glows brightly and the ground shakes as a tentacle emerges and smacks you. Spooky!
+<b><span style="color:red">Ouch! Ugh! Eek! Oof!</span></b> (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)
+</p><p>He cooks up some spooky hobo stew, complete with unidentifiable hunks of gristle. When it splashes you, it tastes of chicken. Wait a minute...
+<b><span style="color:red">Oof! Oof! Ouch! Ooh!</span></b> (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)
+</p><p>He lumbers toward you. Speaking of lumber, he just smacked you upside the head with a railroad tie.
+<b><span style="color:red">Ouch! Ouch! Argh! Ooh!</span></b> 
+</p><p>A ghost train rumbles through the graveyard and passes straight through you. It's icky, cold, and unbearably spooky. <b><span style="color:red">Ugh! Eek! Oof! Ugh!</span></b> (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)
+</p>
+</div><i>Critical Hit Message:</i>
+<div style="text-align:center">
+<p>He pops up behind you and says, "thanks for the ride, lady." You run as hard as you can, but when you stop, you feel an icy hand on your shoulder. "Thanks for the ride, lady." Gah! There's no escape! <b><span style="color:red">Ow! Argh! Argh! Ooh!</span></b> (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)
+</p>
+</div><i>Miss Message(s):</i>
+<div style="text-align:center">
+<p>He tries to grin maliciously at you, but he lacks lips.
+</p><p>He whistles for his dog, but his dog hasn't become a zombie yet. It's sad, really.
+</p><p>He carves a hobo sign on the ground. Huh, so that's what the sign for "brrraaaains" looks like.
+</p><p>He cooks up some spooky hobo stew, but you decline to join him for a bite.
+</p><p>He lumbers toward you, but you jack away.
+</p><p>A ghost train rumbles through the graveyard, but you play chicken with the train, and win.
+</p>
+</div><i>Fumble Message:</i>
+<div style="text-align:center">
+<p>A ghostly car rumbles through the graveyard, endlessly reliving the night some drunken teenager drove it off a cliff. The hobo wanders over to clean its spectral windshield.
+</p>
+</div><i>Special Move(s):</i>
+<div style="text-align:center">
+<p>He coughs loudly, and maggots spray everywhere. Gross!
+</p>
+<table align="center"><tr><td><a href="/thekolwiki/index.php/File:Hp1.gif" class="image" title="HP"><img alt="HP" src="http://cdn.coldfront.net/thekolwiki/images/3/37/Hp1.gif" width="30" height="30" /></a></td><td>You lose X <a href="/thekolwiki/index.php/HP" title="HP">hit points</a>. (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)</td></tr></table>
+<p>He peels his face off, revealing the naked skull underneath, and screeches at you. All the color drains from your body and your hair stands straight up in a comical fashion.
+</p>
+<table align="center"><tr><td><a href="/thekolwiki/index.php/File:Hp1.gif" class="image" title="HP"><img alt="HP" src="http://cdn.coldfront.net/thekolwiki/images/3/37/Hp1.gif" width="30" height="30" /></a></td><td>You lose X <a href="/thekolwiki/index.php/HP" title="HP">hit points</a>. (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)</td></tr></table>
+<p>He tells you a scary ghost story. It's not as spooky as the one about the bees, but it still freaks you out reasonably well.
+</p>
+<table align="center"><tr><td><a href="/thekolwiki/index.php/File:Hp1.gif" class="image" title="HP"><img alt="HP" src="http://cdn.coldfront.net/thekolwiki/images/3/37/Hp1.gif" width="30" height="30" /></a></td><td>You lose X <a href="/thekolwiki/index.php/HP" title="HP">hit points</a>. (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)</td></tr></table>
+<p>He sneaks around behind you and yells "Boo!" Your heart skips a beat, and not in a romantic way.
+</p>
+<table align="center"><tr><td><a href="/thekolwiki/index.php/File:Hp1.gif" class="image" title="HP"><img alt="HP" src="http://cdn.coldfront.net/thekolwiki/images/3/37/Hp1.gif" width="30" height="30" /></a></td><td>You lose X <a href="/thekolwiki/index.php/HP" title="HP">hit points</a>. (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)</td></tr></table>
+<p>He asks you to guess how many fingers he's holding up, and then shakes his bindle at you. It takes you a moment to catch his meaning, but you're thoroughly creeped out afterwards.
+</p>
+<table align="center"><tr><td><a href="/thekolwiki/index.php/File:Hp1.gif" class="image" title="HP"><img alt="HP" src="http://cdn.coldfront.net/thekolwiki/images/3/37/Hp1.gif" width="30" height="30" /></a></td><td>You lose X <a href="/thekolwiki/index.php/HP" title="HP">hit points</a>. (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)</td></tr></table>
+<p>He tells you he has the heart of a twelve-year-old boy. Then he tells you where he keeps it. *Shudder*
+</p>
+<table align="center"><tr><td><a href="/thekolwiki/index.php/File:Hp1.gif" class="image" title="HP"><img alt="HP" src="http://cdn.coldfront.net/thekolwiki/images/3/37/Hp1.gif" width="30" height="30" /></a></td><td>You lose X <a href="/thekolwiki/index.php/HP" title="HP">hit points</a>. (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)</td></tr></table>
+<p>He grins at you -- a malevolent, evil grin, so evil that it pierces you to your very soul. Man. You're gonna have to wash your soul off.
+</p>
+<table align="center"><tr><td><a href="/thekolwiki/index.php/File:Hp1.gif" class="image" title="HP"><img alt="HP" src="http://cdn.coldfront.net/thekolwiki/images/3/37/Hp1.gif" width="30" height="30" /></a></td><td>You lose X <a href="/thekolwiki/index.php/HP" title="HP">hit points</a>. (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)</td></tr></table>
+<p>His eyes go black, his jaw unhinges, his head spins around, and a flood of split-pea-soup jets out of his mouth. You don't get any on you, but it's freaky, nonetheless.
+</p>
+<table align="center"><tr><td><a href="/thekolwiki/index.php/File:Hp1.gif" class="image" title="HP"><img alt="HP" src="http://cdn.coldfront.net/thekolwiki/images/3/37/Hp1.gif" width="30" height="30" /></a></td><td>You lose X <a href="/thekolwiki/index.php/HP" title="HP">hit points</a>. (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)</td></tr></table>
+<p>He asks if you want to meet his brother, and before you can answer, he pulls a jar of formaldehyde from his bindle. Freaky, man.
+</p>
+<table align="center"><tr><td><a href="/thekolwiki/index.php/File:Hp1.gif" class="image" title="HP"><img alt="HP" src="http://cdn.coldfront.net/thekolwiki/images/3/37/Hp1.gif" width="30" height="30" /></a></td><td>You lose X <a href="/thekolwiki/index.php/HP" title="HP">hit points</a>. (<a href="/thekolwiki/index.php/Spooky#Received_From_Monsters" title="Spooky"><span style="color:gray;"><b>spooky damage</b></span></a>)</td></tr></table>
+</div><div style="padding-top:2px;">
+<hr />
+<center style="position:relative;top:-1.05em;height:0px;"><span style="background-color:#ffffff;padding-left:2px;padding-right:2px;">After Combat</span></center></div>
+<p>&#32;
+</p>
+<table style="margin-left: auto; margin-right: auto;"><tr><td><a href="/thekolwiki/index.php/Asleep_in_the_Cemetery" title="Asleep in the Cemetery"><img alt="Book4.gif" src="http://cdn.coldfront.net/thekolwiki/images/c/c4/Book4.gif" width="30" height="30" /></a></td><td style="vertical-align: middle;">You acquire an item: <b><a href="/thekolwiki/index.php/Asleep_in_the_Cemetery" title="Asleep in the Cemetery">Asleep in the Cemetery</a></b> <b>(.1% chance)<a href="/thekolwiki/index.php/Statistics_Notes" title="Statistics Notes">*</a></b></td></tr></table>
+<table style="margin-left: auto; margin-right: auto;"><tr><td><a href="/thekolwiki/index.php/Comfy_coffin" title="Comfy coffin"><img alt="Nicecoffin.gif" src="http://cdn.coldfront.net/thekolwiki/images/f/f9/Nicecoffin.gif" width="30" height="30" /></a></td><td style="vertical-align: middle;">You acquire an item: <b><a href="/thekolwiki/index.php/Comfy_coffin" title="Comfy coffin">comfy coffin</a></b> <b>(.1% chance)<a href="/thekolwiki/index.php/Statistics_Notes" title="Statistics Notes">*</a></b></td></tr></table>
+<table style="margin-left: auto; margin-right: auto;"><tr><td><a href="/thekolwiki/index.php/Hobo_nickel" title="Hobo nickel"><img alt="Nickel.gif" src="http://cdn.coldfront.net/thekolwiki/images/5/59/Nickel.gif" width="30" height="30" /></a></td><td style="vertical-align: middle;">You acquire an item: <b><a href="/thekolwiki/index.php/Hobo_nickel" title="Hobo nickel">hobo nickel</a></b> <b>(15% chance)<a href="/thekolwiki/index.php/Statistics_Notes" title="Statistics Notes">*</a></b></td></tr></table>
+<table style="margin-left: auto; margin-right: auto;"><tr><td><a href="/thekolwiki/index.php/Let_Me_Be!" title="Let Me Be!"><img alt="Book4.gif" src="http://cdn.coldfront.net/thekolwiki/images/c/c4/Book4.gif" width="30" height="30" /></a></td><td style="vertical-align: middle;">You acquire an item: <b><a href="/thekolwiki/index.php/Let_Me_Be!" title="Let Me Be!">Let Me Be!</a></b> <b>(.1% chance)<a href="/thekolwiki/index.php/Statistics_Notes" title="Statistics Notes">*</a></b></td></tr></table>
+<table style="margin-left: auto; margin-right: auto;"><tr><td><a href="/thekolwiki/index.php/Spooky_bindle" title="Spooky bindle"><img alt="Spookbindle.gif" src="http://cdn.coldfront.net/thekolwiki/images/3/36/Spookbindle.gif" width="30" height="30" /></a></td><td style="vertical-align: middle;">You acquire an item: <b><a href="/thekolwiki/index.php/Spooky_bindle" title="Spooky bindle">spooky bindle</a></b> <b>(.1% chance)<a href="/thekolwiki/index.php/Statistics_Notes" title="Statistics Notes">*</a></b></td></tr></table>
+<table align="center" style="text-align:center"><tr><td style="line-height:1.5em">You gain 88 &lt;<a href="/thekolwiki/index.php/Advancement" title="Advancement">substat</a>&gt;.</td></tr></table>
+<hr />
+<p>Occurs at <a href="/thekolwiki/index.php/The_Ancient_Hobo_Burial_Ground" title="The Ancient Hobo Burial Ground">The Ancient Hobo Burial Ground</a>
+</p>
+<h2> <span class="mw-headline" id="Notes">Notes</span></h2>
+<ul><li>Hobos have a chance to use special attacks which are guaranteed to hit regardless of how high or low your <a href="/thekolwiki/index.php/Moxie" title="Moxie">Moxie</a> is. These attacks do a great deal more damage than normal attacks and don't seem to interact with defensive abilities such as saucespheres or <a href="/thekolwiki/index.php/Hero_of_the_Half-Shell" title="Hero of the Half-Shell">Hero of the Half-Shell</a>. They can be distinguished from normal hits by the lack of sound effects that follow the message.
+</li><li>All elemental damage is reduced to 1; <a href="/thekolwiki/index.php/Hot" title="Hot"><span style="color:red;">hot</span></a> and <a href="/thekolwiki/index.php/Stench" title="Stench"><span style="color:green;">stench</span></a> are subsequently doubled to 2.
+</li><li>The name, image, and introduction text of this monster are all randomly selected:
+<ul><li>Names follow the pattern of: <a href="/thekolwiki/index.php/Hobo_Names#Spooky" title="Hobo Names">Spooky Title</a> + <a href="/thekolwiki/index.php/Hobo_Names#First_Names" title="Hobo Names">First Name</a> + <a href="/thekolwiki/index.php/Hobo_Names#Spooky_2" title="Hobo Names">Spooky Nickname</a> + <a href="/thekolwiki/index.php/Hobo_Names#Last_Names" title="Hobo Names">Last Name</a> + <a href="/thekolwiki/index.php/Hobo_Names#Spooky_3" title="Hobo Names">Spooky Occupation</a>
+</li><li>Images are randomly any of the following:
+</li></ul>
+</li></ul>
+<table>
+<tr>
+<td><a href="/thekolwiki/index.php/File:Spookyhobo1.gif" class="image"><img alt="Spookyhobo1.gif" src="http://cdn.coldfront.net/thekolwiki/images/a/a5/Spookyhobo1.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Spookyhobo2.gif" class="image"><img alt="Spookyhobo2.gif" src="http://cdn.coldfront.net/thekolwiki/images/b/b5/Spookyhobo2.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Spookyhobo3.gif" class="image"><img alt="Spookyhobo3.gif" src="http://cdn.coldfront.net/thekolwiki/images/e/ee/Spookyhobo3.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Spookyhobo4.gif" class="image"><img alt="Spookyhobo4.gif" src="http://cdn.coldfront.net/thekolwiki/images/f/fd/Spookyhobo4.gif" width="100" height="100" /></a>
+</td></tr>
+<tr>
+<td><a href="/thekolwiki/index.php/File:Spookyhobo5.gif" class="image"><img alt="Spookyhobo5.gif" src="http://cdn.coldfront.net/thekolwiki/images/1/1f/Spookyhobo5.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Spookyhobo6.gif" class="image"><img alt="Spookyhobo6.gif" src="http://cdn.coldfront.net/thekolwiki/images/0/0d/Spookyhobo6.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Spookyhobo7.gif" class="image"><img alt="Spookyhobo7.gif" src="http://cdn.coldfront.net/thekolwiki/images/a/a0/Spookyhobo7.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Spookyhobo8.gif" class="image"><img alt="Spookyhobo8.gif" src="http://cdn.coldfront.net/thekolwiki/images/0/0c/Spookyhobo8.gif" width="100" height="100" /></a>
+</td></tr></table>
+<h2> <span class="mw-headline" id="References">References</span></h2>
+<ul><li>The first introduction about roaming even after death could be a reference to a line in the Metallica song "Wherever I may Roam" that says "My body lies but still I roam"
+</li><li>The third introduction about "do you think [booze] grows on trees like cigarettes?" refers to a line in the hobo anthem "The Big Rock Candy Mountain" about cigarette trees.
+</li><li>The fourth introduction is taken from Michael Jackson's song "Thriller" (namely the Vincent Price narration in the middle).
+</li><li>The fifth introduction ("the soil of a hobo's heart is stonier") references a line in <a href="http://en.wikipedia.org/wiki/Stephen_King" class="extiw" title="wikipedia:Stephen King">Stephen King</a>'s <i><a href="http://en.wikipedia.org/wiki/Pet_Sematary" class="extiw" title="wikipedia:Pet Sematary">Pet Sematary</a></i>.
+</li><li>The message about the heart of a twelve-year-old boy is another quote from Stephen King, who jokingly said in an interview that he kept one in a jar on his desk.
+</li><li>The special move involving split-pea-soup references a famous scene in <a href="http://en.wikipedia.org/wiki/The_Exorcist_(film)" class="extiw" title="wikipedia:The Exorcist (film)"><i>The Exorcist</i></a>.
+</li><li>The miss message about playing chicken with the train is a reference to the song "I Play Chicken With The Train" by Cowboy Troy.
+</li><li>The message about the ghost story refers to the <a href="/thekolwiki/index.php/Yuletide" title="Yuletide">Yuletide</a> story "<a href="/thekolwiki/index.php/The_Tale_of_the_Mysterious_Beekeeper" title="The Tale of the Mysterious Beekeeper">The Tale of the Mysterious Beekeeper</a>".
+</li><li>The hobo who can "take off his head to recite Shakespearian quotations" references Jack Skellington from <i><a href="http://en.wikipedia.org/wiki/The_Nightmare_Before_Christmas" class="extiw" title="wikipedia:The Nightmare Before Christmas">The Nightmare Before Christmas</a></i> who spoke the exact same lines.
+</li><li>The same intro references Shakespeare's <a href="http://en.wikipedia.org/wiki/Hamlet" class="extiw" title="wikipedia:Hamlet">'Hamlet'</a>, specifically the oft quoted words "Alas, poor Yorick. I knew him, Horatio." but is often misquoted as "Alas, poor Yorick. I knew him well."
+</li><li>"Thanks for the ride, lady" is a line from the movie <i><a href="http://en.wikipedia.org/wiki/Creepshow_2" class="extiw" title="wikipedia:Creepshow 2">Creepshow 2</a></i>.
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1502/1000000
+Preprocessor generated node count: 5822/1000000
+Post-expand include size: 38862/2097152 bytes
+Template argument size: 18531/2097152 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 22/2000
+Foxway time usage: 0.014 secs
+-->
+</div><div class="printfooter">
+Retrieved from "<a href="http://kol.coldfront.net/thekolwiki/index.php?title=Spooky_hobo&amp;oldid=517463">http://kol.coldfront.net/thekolwiki/index.php?title=Spooky_hobo&amp;oldid=517463</a>"</div>
+	<div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/thekolwiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/thekolwiki/index.php/Category:Monsters_With_Unknown_Parts" title="Category:Monsters With Unknown Parts">Monsters With Unknown Parts</a></li><li><a href="/thekolwiki/index.php/Category:Needs_Spading" title="Category:Needs Spading">Needs Spading</a></li><li><a href="/thekolwiki/index.php/Category:Hobos" title="Category:Hobos">Hobos</a></li></ul></div></div></div>	 <!-- end content -->
+	 </td></tr></table>
+	 <div class="lastmod" align="right"> This page was last modified on 5 November 2012, at 06:38.		<br>This page has been accessed 15,593 times.				<br><a href="/thekolwiki/index.php/TheKolWiki:About" title="TheKolWiki:About">About TheKolWiki</a>                &nbsp;<a href="/thekolwiki/index.php/TheKolWiki:General_disclaimer" title="TheKolWiki:General disclaimer">Disclaimers</a>		<br>© 2005 - 2014 <a href="http://coldfront.net/">Coldfront L.L.C.</a></div>
+
+	</td>
+    <td style="background-color:#ededed;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/bottom_left.jpg" width="160" height="13"></td>
+    <td background="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/bottom.jpg"></td>
+    <td><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/botoom_g.jpg" width="10" height="13"></td>
+    <td background="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/bottom_right.jpg" style="background-repeat:no-repeat; background-position:right; background-color:#6386a8;"></td>
+  </tr>
+</table>
+<div align="center" class="coldfront">
+<a href="http://www.coldfront.net/about-coldfront">About Coldfront</a> | <a href="http://www.coldfront.net/privacy-policy">Privacy Policy</a>
+    </div>
+</p>
+<script src="/thekolwiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=monobook&amp;*"></script>
+<script>if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Main_Page", "wgTitle": "Main Page", "wgAction": "edit", "wgArticleId": 1, "wgIsArticle": false, "wgUserName": "Mag", "wgUserGroups": ["sysop", "*", "user", "autoconfirmed"], "wgCurRevisionId": 416697, "wgCategories": [], "wgBreakFrames": true, "wgRestrictionEdit": ["sysop"], "wgRestrictionMove": ["sysop"]});
+}
+</script>
+<script>if ( window.mediaWiki ) {
+	mediaWiki.loader.load(["mediawiki.legacy.edit", "mediawiki.action.edit", "mediawiki.util", "mediawiki.legacy.wikibits", "mediawiki.legacy.ajax", "mediawiki.legacy.ajaxwatch"]);
+	mediaWiki.loader.go();
+}
+</script>
+
+<script>if ( window.mediaWiki ) { addButton("/thekolwiki/skins/common/images/button_bold.png","Bold text","\'\'\'","\'\'\'","Bold text","mw-editbutton-bold");
+addButton("/thekolwiki/skins/common/images/button_italic.png","Italic text","\'\'","\'\'","Italic text","mw-editbutton-italic");
+addButton("/thekolwiki/skins/common/images/button_link.png","Internal link","[[","]]","Link title","mw-editbutton-link");
+addButton("/thekolwiki/skins/common/images/button_extlink.png","External link (remember http:// prefix)","[","]","http://www.example.com link title","mw-editbutton-extlink");
+addButton("/thekolwiki/skins/common/images/button_headline.png","Level 2 headline","\n== "," ==\n","Headline text","mw-editbutton-headline");
+addButton("/thekolwiki/skins/common/images/button_image.png","Embedded file","[[File:","]]","Example.jpg","mw-editbutton-image");
+addButton("/thekolwiki/skins/common/images/button_media.png","File link","[[Media:","]]","Example.ogg","mw-editbutton-media");
+addButton("/thekolwiki/skins/common/images/button_nowiki.png","Ignore wiki formatting","\x3cnowiki\x3e","\x3c/nowiki\x3e","Insert non-formatted text here","mw-editbutton-nowiki");
+addButton("/thekolwiki/skins/common/images/button_sig.png","Your signature with timestamp","--~~~~","","","mw-editbutton-signature");
+addButton("/thekolwiki/skins/common/images/button_hr.png","Horizontal line (use sparingly)","\n----\n","","","mw-editbutton-hr");
+ }</script>
+<script src="/thekolwiki/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=monobook&amp;*"></script>
+<script>if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"0","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":"1","rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"monobook","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false});;mediaWiki.loader.state({"user.options":"ready"});
+}
+</script>
+</body>
+</html>

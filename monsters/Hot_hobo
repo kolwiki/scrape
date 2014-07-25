@@ -1,0 +1,513 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="generator" content="MediaWiki 1.20.2" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/thekolwiki/opensearch_desc.php" title="TheKolWiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://kol.coldfront.net/thekolwiki/api.php?action=rsd" />
+<link rel="copyright" href="/thekolwiki/index.php/MediaWiki:Copyright" />
+<link rel="alternate" type="application/atom+xml" title="TheKolWiki Atom feed" href="/thekolwiki/index.php?title=Special:RecentChanges&amp;feed=atom" />    <title>Hot hobo - TheKolWiki</title>
+    <style type="text/css" media="screen">/*<![CDATA[*/ @import "http://kol.coldfront.net/thekolwiki/skins/monobook/maincf.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="http://kol.coldfront.net/thekolwiki/skins/common/commonPrint.css" />
+        <script type="text/javascript" src="/thekolwiki/skins/common/wikibits.js"></script>
+                <link rel="stylesheet" href="http://kol.coldfront.net/thekolwiki/load.php?debug=false&lang=en&modules=site&only=styles&skin=monobook&*" /> 
+  </head>
+  <body          bgcolor="#cfe3eb" style="margin: 5px 10px 5px 10px;">
+<a href="http://kol.coldfront.net/thekolwiki/"><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/logo.jpg" width="169" height="125" border="0" class="toplogo"></a>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+  <tr>
+     <td style="border-left: 3px solid #6386a8;" width="160" rowspan="2">&nbsp;</td>
+    <td bgcolor="#6386a8" background="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/top_right.jpg" colspan="3" style="background-position:right; background-repeat:no-repeat;" align="center" height="99">
+
+<!-- PUT THIS TAG IN THE head SECTION -->
+<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-2357921960626041");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-2357921960626041", "Coldfront_160x600");
+  GA_googleAddSlot("ca-pub-2357921960626041", "Coldfront_300x250");
+  GA_googleAddSlot("ca-pub-2357921960626041", "Coldfront_728x90");
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+<!-- END OF TAG FOR head SECTION -->
+
+<script type="text/javascript">
+  GA_googleFillSlot("Coldfront_728x90");
+</script>
+<script type="text/javascript">
+	//Display a message in the case that Adblock is blocked
+	if(document.getElementsByTagName("iframe").item(0) == null)
+{
+    document.write("<div style='width:728px; height:60px;margin-left:5px; padding-top:29px; background-color: white; border : 1px solid #000000; text-align:center;'><img src='http://kol.coldfront.net/favicon.ico'></img></div>");
+}
+</script>
+
+</td>
+  </tr>
+  <tr height="30">
+    <td width="100%" align="center" valign=bottom">
+        <script type="text/javascript"><!--
+google_ad_client = "pub-2357921960626041";
+google_alternate_color = "FFFFFF";
+google_ad_width = 468;
+google_ad_height = 15;
+google_ad_format = "468x15_0ads_al_s";
+google_ad_channel ="4610558790";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0066CC";
+google_color_url = "000000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+	</td>
+    <td width="12" valign="top"><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/google_right.jpg" width="10" height="38"></td>
+    <td bgcolor="#6386a8" rowspan="3" valign="top" style="padding: 0px 5px 0px 5px;" align="center">
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-2357921960626041";
+google_ad_width = 125;
+google_ad_height = 125;
+google_ad_format = "125x125_as";
+google_ad_type = "text_image";
+//2007-08-06: kolwiki_125x125
+google_ad_channel = "2045231347";
+google_color_border = "FFFFFF";
+google_color_bg = "6386A8";
+google_color_link = "469FD2";
+google_color_text = "000000";
+google_color_url = "000000";
+google_ui_features = "rc:0";
+//-->
+</script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+  </script>
+  <br>
+
+<script type="text/javascript">
+  GA_googleFillSlot("Coldfront_160x600");
+</script>
+<script type="text/javascript">
+	//Display a message in the case that Adblock is blocked
+	if(document.getElementsByTagName("iframe").item(0) == null)
+{
+				var adMessage = "Hello! Thank you for using Coldfront services. If you would like to help us cover our costs, please consider <a href='https://adblockplus.org/en/faq_basics#disable'>disabling Adblock for this site</a>. Thanks!";
+    document.write("<div style='width:160px; height:600px;margin-left:5px; padding-top:284px; background-color: white; border : 1px solid #000000; text-align:center;'><img src='http://kol.coldfront.net/favicon.ico'></img><br />" + adMessage + "</div>");
+}
+</script>
+
+<div><p align="center">
+<br />
+</p></div>
+<p><a href="//www.mediawiki.org/"><img src="/thekolwiki/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></p></td>
+  </tr>
+  <tr><td background="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/divider_centre.jpg"><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/divider_left.jpg" width="12" height="19" align="left"></td><td background="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/divider_centre.jpg"></td><td><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/divider_right.jpg" width="10" height="19"></td></tr>
+  <tr>
+    <td style="border-left: 3px solid #6386a8; padding: 0px 5px 0px 5px; width: 186px; background-color:#ededed;" valign="top">
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(/thekolwiki/vis_sig.jpg);"
+	    href="/thekolwiki/index.php/Main_Page"
+	    title="Main Page"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Search</label></h5>
+	  <div class="pBody">
+	    <form name="searchform" action="/thekolwiki/index.php/Special:Search" id="searchform">
+	      <input id="searchInput" name="search" type="text"
+	        accesskey="f" value="" />
+	      <br><input type='submit' name="go" class="searchButton" id="searchGoButton"
+	        value="Go"
+	        />&nbsp;<input type='submit' name="fulltext"
+                class="searchButton"
+                value="Search" />
+
+	    </form>
+	  </div>
+	</div>
+		<div class='portlet' id='p-navigation'>
+	  <h5>Navigation</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-mainpage"><a href="/thekolwiki/index.php/Main_Page">Main Page</a></li>
+	     	      <li id="n-portal"><a href="/thekolwiki/index.php/Community">Community</a></li>
+	     	      <li id="n-recentchanges"><a href="/thekolwiki/index.php/Special:RecentChanges">Recent changes</a></li>
+	     	      <li id="n-currentprojects"><a href="/thekolwiki/index.php/TheKolWiki:Current_Projects">Current Projects</a></li>
+	     	      <li id="n-randompage"><a href="/thekolwiki/index.php/Special:Random">Random page</a></li>
+	     	      <li id="n-help"><a href="/thekolwiki/index.php/Help:Contents">Help</a></li>
+	     	      <li id="n-forum"><a href="http://forums.kingdomofloathing.com">Forums</a></li>
+	     	      <li id="n-discuss"><a href="/thekolwiki/index.php/Discussion">Discussion</a></li>
+	     	      <li id="n-coldfront"><a href="http://kol.coldfront.net/">KoL Coldfront</a></li>
+	     	      <li id="n-irc"><a href="http://www.coldfront.net/pjirc/chat.htm">KoL IRC</a></li>
+	     		  <!--- Add the forum link to the navigation bar --->
+<!-- 	      <li><a href="http://kol.thraeryn.org/forum/" target="_blank">Forum</a></li>
+	      <li><a href="http://kol.coldfront.net/">KoL Coldfront</a></li>
+	      <li><a href="http://kol.coldfront.net/index.php/component/option,com_mospjirc/Itemid,86/">KoL IRC</a></li>
+-->	      <!--- End of addition --->
+	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-Coldfront'>
+	  <h5>KoL Coldfront</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-News"><a href="http://kol.coldfront.net/index.php/content/section/1/43/">News</a></li>
+	     	      <li id="n-Custom-Avatar-Gallery"><a href="http://kol.coldfront.net/index.php/content/view/345/53/">Custom Avatar Gallery</a></li>
+	     	      <li id="n-Calendar"><a href="http://kol.coldfront.net/index.php/component/option,com_eventcal/Itemid,135/">Calendar</a></li>
+	     	      <li id="n-KoL-Marketplace-2.0"><a href="http://kol.coldfront.net/index.php/content/view/1903/146/">KoL Marketplace 2.0</a></li>
+	     	      <li id="n-One-Day-Ascension"><a href="http://kol.coldfront.net/index.php/component/option,com_wrapper/Itemid,122/">One Day Ascension</a></li>
+	     	      <li id="n-Uncle-Scottmaley.27s-Amazing-Webcomic.21"><a href="http://kol.coldfront.net/comic/">Uncle Scottmaley's Amazing Webcomic!</a></li>
+	     	      <li id="n-KoL-Radio-Archive"><a href="http://radio.kingdomofloathing.com/">KoL Radio Archive</a></li>
+	     	      <li id="n-Player-Interviews"><a href="http://kol.coldfront.net/index.php/content/view/1780/145/">Player Interviews</a></li>
+	     	      <li id="n-Player-created"><a href="http://kol.coldfront.net/index.php/content/section/10/92/">Player-created</a></li>
+	     	      <li id="n-Media-Reviews-and-Interviews"><a href="http://kol.coldfront.net/index.php/content/section/18/72/">Media Reviews and Interviews</a></li>
+	     		  <!--- Add the forum link to the navigation bar --->
+<!-- 	      <li><a href="http://kol.thraeryn.org/forum/" target="_blank">Forum</a></li>
+	      <li><a href="http://kol.coldfront.net/">KoL Coldfront</a></li>
+	      <li><a href="http://kol.coldfront.net/index.php/component/option,com_mospjirc/Itemid,86/">KoL IRC</a></li>
+-->	      <!--- End of addition --->
+	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-Well-Tempered Tools'>
+	  <h5>Well-Tempered Tools</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-Anvil"><a href="http://kol.coldfront.net/tools/anvil/">Anvil</a></li>
+	     	      <li id="n-Mixologist"><a href="http://kol.coldfront.net/tools/mixology/">Mixologist</a></li>
+	     	      <li id="n-Epicure"><a href="http://kol.coldfront.net/tools/epicure/">Epicure</a></li>
+	     	      <li id="n-Tripping-the-Fog-Fantastic"><a href="http://kol.coldfront.net/tools/fog/">Tripping the Fog Fantastic</a></li>
+	     	      <li id="n-Tour-de-Louvre"><a href="http://kol.coldfront.net/tools/louvre/">Tour de Louvre</a></li>
+	     		  <!--- Add the forum link to the navigation bar --->
+<!-- 	      <li><a href="http://kol.thraeryn.org/forum/" target="_blank">Forum</a></li>
+	      <li><a href="http://kol.coldfront.net/">KoL Coldfront</a></li>
+	      <li><a href="http://kol.coldfront.net/index.php/component/option,com_mospjirc/Itemid,86/">KoL IRC</a></li>
+-->	      <!--- End of addition --->
+	    </ul>
+	  </div>
+	</div>
+		<div class="portlet" id="p-tb">
+	  <h5>Toolbox</h5>
+	  <div class="pBody">
+	    <ul>
+		  		  <li id="t-whatlinkshere"><a href="/thekolwiki/index.php/Special:WhatLinksHere/Hot_hobo">What links here</a></li>
+		  		  <li id="t-recentchangeslinked"><a href="/thekolwiki/index.php/Special:RecentChangesLinked/Hot_hobo">Related changes</a></li>
+		  	      	      	      	      	      	      <li id="t-specialpages"><a href="/thekolwiki/index.php/Special:SpecialPages">Special pages</a></li>
+ 
+                <li id="t-print"><a href="/thekolwiki/index.php?title=Hot_hobo&amp;printable=yes">Printable version</a></li>                <li id="t-permalink"><a href="/thekolwiki/index.php?title=Hot_hobo&amp;oldid=483354">Permanent link</a></li>	    </ul>
+	  </div><br/>
+	  
+<div class="portlet" id="p-personal">
+	  <h5>Personal tools</h5>
+	  <div class="pBody">
+	    <ul>
+	    <li id="pt-login"><a href="/thekolwiki/index.php?title=Special:UserLogin&amp;returnto=Hot+hobo">Log in / create account</a></li>	    </ul>
+	  </div>
+	</div>
+	 <p>
+
+		</p>
+	</td>
+    <td width="100%" valign="top" style="padding: 0px 5px 0px 5px; background-color:#ededed;"><table border="0" cellpadding="0" cellspacing="0" id="p-cactions" bgcolor="#ededed" width="100%"><tr><td class="nothing" width="100%">&nbsp;</td>
+				 <td class="selected"><a href="/thekolwiki/index.php/Hot_hobo"><nobr>Page</nobr></a></td><td class="nothing">&nbsp;</td>
+				 <td><a href="/thekolwiki/index.php/Talk:Hot_hobo"><nobr>Discussion</nobr></a></td><td class="nothing">&nbsp;</td>
+				 <td><a href="/thekolwiki/index.php?title=Hot_hobo&amp;action=edit"><nobr>View&nbsp;source</nobr></a></td><td class="nothing">&nbsp;</td>
+				 <td><a href="/thekolwiki/index.php?title=Hot_hobo&amp;action=history"><nobr>History</nobr></a></td><td class="nothing">&nbsp;</td>
+		</tr></table><table cellspacing="0" width="100%"><tr><td class="pBody">
+		<h1 class="firstHeading">Hot hobo</h1>
+	<h3 id="siteSub">From TheKolWiki</h3>
+	<div id="contentSub"></div>
+			<!-- start content -->
+	<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table style="border: 1px solid black; margin: auto; text-align: center" cellspacing="2">
+<tr>
+<td style="border: 1px solid black"> <a href="/thekolwiki/index.php/Spading" title="Spading"><img alt="Spadebal.gif" src="http://cdn.coldfront.net/thekolwiki/images/5/5e/Spadebal.gif" width="30" height="30" /></a>
+</td>
+<td> There are some vague or non-exact figures and information on this page. Some <a href="/thekolwiki/index.php/Category:Needs_Spading" title="Category:Needs Spading">spading</a> is required.
+<dl><dd><br /><b>One hit message may be missing. Mechanics for excess hot damage.</b>
+</dd></dl>
+</td></tr></table>
+<p><br />
+</p>
+<table class="infobox" style="width: 23em; text-align: left; font-size: 75%;">
+
+<tr>
+<th colspan="2" align="center"> <a href="/thekolwiki/index.php/Data:Hot_hobo" title="Data:Hot hobo">Hot hobo</a>
+</th></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Monsters_by_number" title="Monsters by number">Monster ID</a>
+</th>
+<td> <i>unknown</i>
+</td></tr>
+<tr>
+<th width="30%"> <a href="/thekolwiki/index.php/Locations" title="Locations">Locations</a>
+</th>
+<td> <a href="/thekolwiki/index.php/Burnbarrel_Blvd." title="Burnbarrel Blvd.">Burnbarrel Blvd.</a>
+</td></tr>
+<tr>
+<th> Hit Points
+</th>
+<td> 500
+</td></tr>
+<tr>
+<th> Attack
+</th>
+<td> 350
+</td></tr>
+<tr>
+<th> Defense
+</th>
+<td> 315
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Safe_Adventuring" title="Safe Adventuring">No-Hit</a>
+</th>
+<td>360
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Combat_Initiative" title="Combat Initiative">Initiative</a>
+</th>
+<td> 100
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Meat" title="Meat">Meat</a>
+</th>
+<td> None
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Monster_Types" title="Monster Types">Phylum</a>
+</th>
+<td> hobo
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Elements" title="Elements">Elements</a>
+</th>
+<td> <a href="/thekolwiki/index.php/Hot" title="Hot"><span style="color:red;">hot</span></a>
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Physical_Resistance" title="Physical Resistance">Resistance</a>
+</th>
+<td>
+</td></tr>
+<tr>
+<th> <a href="/thekolwiki/index.php/Monster_Parts" title="Monster Parts">Monster Parts</a>
+</th>
+<td> <i>unknown</i>
+</td></tr>
+<tr>
+<td colspan="2">
+<dl><dt><a href="/thekolwiki/index.php/Items_from_Monsters" title="Items from Monsters">Drops</a>
+</dt><dd><a href="/thekolwiki/index.php/Bed_of_coals" title="Bed of coals">bed of coals</a>, <a href="/thekolwiki/index.php/Flamin%27_bindle" title="Flamin' bindle">flamin' bindle</a>, <a href="/thekolwiki/index.php/Hobo_nickel" title="Hobo nickel">hobo nickel</a>, <a href="/thekolwiki/index.php/Kissin%27_Cousins" title="Kissin' Cousins">Kissin' Cousins</a>, <a href="/thekolwiki/index.php/Tales_from_the_Fireside" title="Tales from the Fireside">Tales from the Fireside</a>
+</dd></dl>
+</td></tr>
+
+
+
+
+
+
+
+
+
+
+<tr>
+<th> <a href="/thekolwiki/index.php/Monster_Manuel_(H)#Hot_hobo" title="Monster Manuel (H)">Manuel&#160;Entry</a>
+</th></tr>
+<tr>
+<td colspan="2" style="font-size: smaller; text-align: right;"> <a rel="nofollow" class="external text" href="http://kol.coldfront.net/thekolwiki/index.php?title=Data:Hot_hobo&amp;action=edit">edit data</a>
+</td></tr></table><div style="text-align:center"><a href="/thekolwiki/index.php/File:Hothobo6.gif" class="image" title="Hot hobo"><img alt="Hot hobo" src="http://cdn.coldfront.net/thekolwiki/images/d/d5/Hothobo6.gif" width="100" height="100" /></a>&#160;You're fighting a Hot hobo</div>
+<p>The smoke from a big pile of burning tires briefly obscures your vision. When the smoke clears (and the dust settles), you see a hobo walking out of the pile, carrying a flaming tire under his arm.
+</p><p>"Hey," you say, "doesn't that hurt?"
+</p><p>"Nope," he says, "got my armpits shot off in the war. Had 'em replaced with asbestos. Hey, you look a lot like the no-good, good-for-nothing, worthless, not-at-all-valuable bastard who shot 'em off in the first place. Maybe I can finally get me some payback!"
+</p>
+<center><i>or</i></center>
+<p>"Hey buddy! Can ya spare a quarter?"
+</p><p>"Sorry bud," you say, "I gave at the off... say, did you know your hat's on fire?"
+</p><p>"Hat on fire? Hat on fire? I'll show ya hat on fire, ya dirty pinko!"
+</p><p>"...What?"
+</p>
+<center><i>or</i></center>
+<p>A hobo staggers drunkenly up to you. His threadbare jacket is smoking, and occasional flames lick up from it.
+</p><p>"Hey... hey, guesh *hic* guesh what?"
+</p><p>"What?"
+</p><p>"No no nonono." He pauses to take a swig from a bottle of something, which appears to be boiling. "You gotsh ta guesh."
+</p><p>"...You're on fire."
+</p><p>"That'sh it! I'm on fire! Gimme a hug!"
+</p>
+<center><i>or</i></center>
+<p>A hobo looks up from his trash-can fire and spots you walking by. "Hey. Hey buddy," he says, "want to try a little fire-roasted rat?" He pulls a stick out of the fire that looks like it has a red-hot coal stuck onto the end of it. "It's Cajun-style cookin'! Fine hobo cuisine! Have a taste!" He walks toward you, jabbing the hot stick in your direction.
+</p>
+<center><i>or</i></center>
+<p>A hobo staggers up to you and says, "tell me now, baby, ish he good to you? Can he do to you the things that I do?"
+</p><p>"Is who good to me? Who does what things that who does?" you ask, but the hobo ignores you.
+</p><p>"I can take you higher. Oh, oh, oh... YOU'RE ON FIRE!" he says, and hurls a pan full of burning coals at you.
+</p>
+<center><i>or</i></center>
+<p>A hobo looks up from his trash-can fire, and beckons you closer. "You. You got a thing in your head."
+</p><p>"Huh?"
+</p><p>"Thing in your head. The lizards put it there, so they can control your thoughts."
+</p><p>"Lizards."
+</p><p>"Yep. Don't worry, buddy," he says, pulling a glowing hunk of rebar out of the burning trashcan. "I'll help ya get it out."
+</p><p>"I... I think I'll keep it, if it's all the same to you."
+</p><p>"Can't have the lizards controllin' your thoughts, buddy. That's crazy talk. Hold still."
+</p>
+<center><i>or</i></center>
+<p>You see a hobo take a swig from a bottle of moonshine, then try to light his cigar. He hiccups and blows a great ball of fire at you. "Goodness gracious!" you say. "Watch out!"
+</p><p>"Watch out?" the hobo says, "Watch out? I'll give you 'watch out.' I'll give you what for! Are you after a beat-down, Sonny Jim? Well, watch out, you might get what you're after!"
+</p>
+<center><i>or</i></center>
+<p>A hobo staggers up to you, holding a big, burning torch. "Here, buddy," he says, staggering slightly, "let me light that cigar for you."
+</p><p>"But I don't have a cig -- hold on, seriously -- wait a minute!"
+</p><p><i>Hit Message(s):</i>
+</p>
+<div style="text-align:center">
+<p>He grabs a stick with a roasting marshmallow on it and coats you in white-hot marshmallow napalm. <b><span style="color:red">Ow! Ow!</span></b> (<a href="/thekolwiki/index.php/Hot#Received_From_Monsters" title="Hot"><span style="color:red;"><b>hot damage</b></span></a>)
+</p><p>He throws a ball of flaming newspaper at you. This just in: ARRRRGH! <b><span style="color:red">Ow! Ooh!</span></b> (<a href="/thekolwiki/index.php/Hot#Received_From_Monsters" title="Hot"><span style="color:red;"><b>hot damage</b></span></a>)
+</p><p>He smacks you in the face with a red-hot poker. That's an impressive poker face you have there. <b><span style="color:red">Argh! Oof!</span></b> (<a href="/thekolwiki/index.php/Hot#Received_From_Monsters" title="Hot"><span style="color:red;"><b>hot damage</b></span></a>)
+</p><p>He puts his cigar out on your arm. Did I stutter? <b><span style="color:red">Oof! Eek!</span></b> (<a href="/thekolwiki/index.php/Hot#Received_From_Monsters" title="Hot"><span style="color:red;"><b>hot damage</b></span></a>)
+</p><p>He opens the steam valve on a nearby boiler. Now you know what a White Citadel burger feels like. <b><span style="color:red">Ooh! Eek!</span></b> (<a href="/thekolwiki/index.php/Hot#Received_From_Monsters" title="Hot"><span style="color:red;"><b>hot damage</b></span></a>)
+</p>
+</div><i>Critical Hit Message:</i>
+<div style="text-align:center">
+<p>He upends a nearby trash fire over your head. You start singing a little song, the lyrics to which are "Aieee! Argh! Getitoff getitoff it burns it burns it burns!" <b><span style="color:red">Argh! Argh!</span></b> (<a href="/thekolwiki/index.php/Hot#Received_From_Monsters" title="Hot"><span style="color:red;"><b>hot damage</b></span></a>)
+</p>
+</div><i>Miss Message(s):</i>
+<div style="text-align:center">
+<p>He grabs a stick with a roasting marshmallow on it, but decides to eat it instead of hitting you with it.
+</p><p>He tries to smack you with a red-hot poker, but you point out that it's not a red-hot smacker.
+</p><p>He grabs some newspaper out of a trash fire, but instead of throwing it, he reads the funny pages.
+</p><p>He starts to put out his cigar on you, but you direct him to a nearby ashtray.
+</p><p>He tries to whack you with a flaming tire, but tires out before he can finish the blow.
+</p><p>He opens the steam valve on a nearby boiler, but the boiler wasn't too hot -- the steam just takes the wrinkles out of your clothes.
+</p>
+</div><i>Fumble Message:</i>
+<div style="text-align:center">
+<p>He stops for a minute to warm his hands on a nearby trash fire, and catch up on his hobo gossip. It takes him a while to hear about which hoboes have been getting all hobromantic with each other.
+</p>
+</div><i>Special Move(s):</i>
+<div style="text-align:center">
+<p>He grabs a cigarette butt out of a nearby ashtray, lights it, takes a couple of puffs, and puts it out on your &lt;<a href="/thekolwiki/index.php/Anatomical_Injuries" title="Anatomical Injuries">eye</a>&gt;.
+</p><p>He grabs a handful of red-hot embers from a nearby campfire, and throws them at you.
+</p><p>He grabs a piece of flaming garbage out of a nearby barrel, and hurls it at you, hadouken-style. Hoboken?
+</p><p>He picks up a rusty old can of hairspray, and a rusty old cigarette lighter. Turns out they both work well enough to give you a pretty sound scorching.
+</p><p>He plays a game of "hot potato" with you. Oh, wait, this is a game of "white-hot coal."
+</p><p>He pulls a boiling pot of hobo stew off of a fire and throws it all over you.
+</p><p>He pulls a boiling-hot tin can full of coffee off of his campfire and pours it down your throat. Tastes like burning!
+</p><p>He puts the stub of a cigar out on your &lt;<a href="/thekolwiki/index.php/Anatomical_Injuries" title="Anatomical Injuries">eye</a>&gt;.
+</p><p>He takes a swig of rubbing alcohol, then lights a match and breathes a big cloud of flame at you. Neat trick, but painful.
+</p><p>He upends a burning trash can and rolls it at you. You're feelin' hot, hot, hot.
+</p><p>He jabs you in the &lt;<a href="/thekolwiki/index.php/Anatomical_Injuries" title="Anatomical Injuries">eye</a>&gt; with a red-hot poker. All in all, you'd rather be playing blackjack.
+</p><p>Since he can't throw his campfire at you, he throws you into his campfire.
+</p>
+</div><div style="padding-top:2px;">
+<hr />
+<center style="position:relative;top:-1.05em;height:0px;"><span style="background-color:#ffffff;padding-left:2px;padding-right:2px;">After Combat</span></center></div>
+<p>&#32;
+</p>
+<table style="margin-left: auto; margin-right: auto;"><tr><td><a href="/thekolwiki/index.php/Bed_of_coals" title="Bed of coals"><img alt="Coalbed.gif" src="http://cdn.coldfront.net/thekolwiki/images/e/e4/Coalbed.gif" width="30" height="30" /></a></td><td style="vertical-align: middle;">You acquire an item: <b><a href="/thekolwiki/index.php/Bed_of_coals" title="Bed of coals">bed of coals</a></b> <b>(.1% chance)<a href="/thekolwiki/index.php/Statistics_Notes" title="Statistics Notes">*</a></b></td></tr></table>
+<table style="margin-left: auto; margin-right: auto;"><tr><td><a href="/thekolwiki/index.php/Flamin%27_bindle" title="Flamin&#39; bindle"><img alt="Firebindle.gif" src="http://cdn.coldfront.net/thekolwiki/images/9/9b/Firebindle.gif" width="30" height="30" /></a></td><td style="vertical-align: middle;">You acquire an item: <b><a href="/thekolwiki/index.php/Flamin%27_bindle" title="Flamin' bindle">flamin' bindle</a></b> <b>(.1% chance)<a href="/thekolwiki/index.php/Statistics_Notes" title="Statistics Notes">*</a></b></td></tr></table>
+<table style="margin-left: auto; margin-right: auto;"><tr><td><a href="/thekolwiki/index.php/Hobo_nickel" title="Hobo nickel"><img alt="Nickel.gif" src="http://cdn.coldfront.net/thekolwiki/images/5/59/Nickel.gif" width="30" height="30" /></a></td><td style="vertical-align: middle;">You acquire an item: <b><a href="/thekolwiki/index.php/Hobo_nickel" title="Hobo nickel">hobo nickel</a></b> <b>(15% chance)<a href="/thekolwiki/index.php/Statistics_Notes" title="Statistics Notes">*</a></b></td></tr></table>
+<table style="margin-left: auto; margin-right: auto;"><tr><td><a href="/thekolwiki/index.php/Kissin%27_Cousins" title="Kissin&#39; Cousins"><img alt="Book4.gif" src="http://cdn.coldfront.net/thekolwiki/images/c/c4/Book4.gif" width="30" height="30" /></a></td><td style="vertical-align: middle;">You acquire an item: <b><a href="/thekolwiki/index.php/Kissin%27_Cousins" title="Kissin' Cousins">Kissin' Cousins</a></b> <b>(.1% chance)<a href="/thekolwiki/index.php/Statistics_Notes" title="Statistics Notes">*</a></b></td></tr></table>
+<table style="margin-left: auto; margin-right: auto;"><tr><td><a href="/thekolwiki/index.php/Tales_from_the_Fireside" title="Tales from the Fireside"><img alt="Book4.gif" src="http://cdn.coldfront.net/thekolwiki/images/c/c4/Book4.gif" width="30" height="30" /></a></td><td style="vertical-align: middle;">You acquire an item: <b><a href="/thekolwiki/index.php/Tales_from_the_Fireside" title="Tales from the Fireside">Tales from the Fireside</a></b> <b>(.1% chance)<a href="/thekolwiki/index.php/Statistics_Notes" title="Statistics Notes">*</a></b></td></tr></table>
+<table align="center" style="text-align:center"><tr><td style="line-height:1.5em">You gain 87.5 &lt;<a href="/thekolwiki/index.php/Advancement" title="Advancement">substat</a>&gt;.</td></tr></table>
+<hr />
+<p>Occurs at <a href="/thekolwiki/index.php/Burnbarrel_Blvd." title="Burnbarrel Blvd.">Burnbarrel Blvd.</a>
+</p>
+<h2> <span class="mw-headline" id="Notes">Notes</span></h2>
+<ul><li>Hobos have a chance to use special attacks which are guaranteed to hit regardless of how high or low your <a href="/thekolwiki/index.php/Moxie" title="Moxie">Moxie</a> is. These attacks do a great deal more damage than normal attacks and don't seem to interact with defensive abilities such as saucespheres or <a href="/thekolwiki/index.php/Hero_of_the_Half-Shell" title="Hero of the Half-Shell">Hero of the Half-Shell</a>. They can be distinguished from normal hits by the lack of sound effects that follow the message.
+</li><li>The name, image, and introduction text of this monster are all randomly selected:
+<ul><li>Names follow the pattern of: <a href="/thekolwiki/index.php/Hobo_Names#Hot" title="Hobo Names">Hot Title</a> + <a href="/thekolwiki/index.php/Hobo_Names#First_Names" title="Hobo Names">First Name</a> + <a href="/thekolwiki/index.php/Hobo_Names#Hot_2" title="Hobo Names">Hot Nickname</a> + <a href="/thekolwiki/index.php/Hobo_Names#Last_Names" title="Hobo Names">Last Name</a> + <a href="/thekolwiki/index.php/Hobo_Names#Hot_3" title="Hobo Names">Hot Occupation</a>
+</li><li>Images are randomly any of the following:
+</li></ul>
+</li></ul>
+<table>
+<tr>
+<td><a href="/thekolwiki/index.php/File:Hothobo1.gif" class="image"><img alt="Hothobo1.gif" src="http://cdn.coldfront.net/thekolwiki/images/d/d8/Hothobo1.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Hothobo2.gif" class="image"><img alt="Hothobo2.gif" src="http://cdn.coldfront.net/thekolwiki/images/4/42/Hothobo2.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Hothobo3.gif" class="image"><img alt="Hothobo3.gif" src="http://cdn.coldfront.net/thekolwiki/images/6/68/Hothobo3.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Hothobo4.gif" class="image"><img alt="Hothobo4.gif" src="http://cdn.coldfront.net/thekolwiki/images/8/88/Hothobo4.gif" width="100" height="100" /></a>
+</td></tr>
+<tr>
+<td><a href="/thekolwiki/index.php/File:Hothobo5.gif" class="image"><img alt="Hothobo5.gif" src="http://cdn.coldfront.net/thekolwiki/images/3/35/Hothobo5.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Hothobo6.gif" class="image"><img alt="Hothobo6.gif" src="http://cdn.coldfront.net/thekolwiki/images/d/d5/Hothobo6.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Hothobo7.gif" class="image"><img alt="Hothobo7.gif" src="http://cdn.coldfront.net/thekolwiki/images/8/83/Hothobo7.gif" width="100" height="100" /></a></td>
+<td><a href="/thekolwiki/index.php/File:Hothobo8.gif" class="image"><img alt="Hothobo8.gif" src="http://cdn.coldfront.net/thekolwiki/images/b/b8/Hothobo8.gif" width="100" height="100" /></a>
+</td></tr></table>
+<h2> <span class="mw-headline" id="References">References</span></h2>
+<ul><li>The hit message about putting out the cigar on one's arm is a reference to a scene in <a href="http://en.wikipedia.org/wiki/The_Breakfast_Club" class="extiw" title="wikipedia:The Breakfast Club"><i>The Breakfast Club</i></a>, in which Judd Nelson explains where a burn mark on his arm came from.
+</li><li>The idea of singing a little song with the lyrics "AIIIEEEE GET IT OFF ME" and the like are a reference to the <a href="http://en.wikipedia.org/wiki/Weird_Al" class="extiw" title="wikipedia:Weird Al">"Weird Al" Yankovic</a> song "Albuquerque".
+</li><li>The Hadouken is Ryu's special move in <i><a href="http://en.wikipedia.org/wiki/Street_Fighter" class="extiw" title="wikipedia:Street Fighter">Street Fighter</a></i>. It consists of him throwing a blue fireball.
+</li><li>"Tastes like burning!" is a reference to a Ralph Wiggum quote from <i>The Simpsons</i>.
+</li><li>The lyrics from the adventure where the hot hobo says "tell me now, baby, ish he good to you? Can he do to you the things that I do?" and his following sentence "I can take you higher. Oh, oh, oh... YOU'RE ON FIRE!" are lyrics from <a href="http://en.wikipedia.org/wiki/Bruce_Springsteen" class="extiw" title="wikipedia:Bruce Springsteen">Bruce Springsteen's</a> song <i>I'm On Fire.</i>
+</li><li>Yelling "Goodness gracious!" when the hobo breathes a great ball of fire is a reference to the <a href="http://en.wikipedia.org/wiki/Jerry_Lee_Lewis" class="extiw" title="wikipedia:Jerry Lee Lewis">Jerry Lee Lewis</a> song <i>Great Balls of Fire.</i>
+</li><li>The special move message about feeling "<a href="http://en.wikipedia.org/wiki/Hot_Hot_Hot_(Arrow_song)" class="extiw" title="wikipedia:Hot Hot Hot (Arrow song)">hot, hot, hot</a>" is a reference to a song by that name.
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1081/1000000
+Preprocessor generated node count: 5410/1000000
+Post-expand include size: 29833/2097152 bytes
+Template argument size: 14589/2097152 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 22/2000
+Foxway time usage: 0.018 secs
+-->
+</div><div class="printfooter">
+Retrieved from "<a href="http://kol.coldfront.net/thekolwiki/index.php?title=Hot_hobo&amp;oldid=483354">http://kol.coldfront.net/thekolwiki/index.php?title=Hot_hobo&amp;oldid=483354</a>"</div>
+	<div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/thekolwiki/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/thekolwiki/index.php/Category:Monsters_With_Unknown_Parts" title="Category:Monsters With Unknown Parts">Monsters With Unknown Parts</a></li><li><a href="/thekolwiki/index.php/Category:Needs_Spading" title="Category:Needs Spading">Needs Spading</a></li><li><a href="/thekolwiki/index.php/Category:Hobos" title="Category:Hobos">Hobos</a></li></ul></div></div></div>	 <!-- end content -->
+	 </td></tr></table>
+	 <div class="lastmod" align="right"> This page was last modified on 12 October 2011, at 18:40.		<br>This page has been accessed 21,332 times.				<br><a href="/thekolwiki/index.php/TheKolWiki:About" title="TheKolWiki:About">About TheKolWiki</a>                &nbsp;<a href="/thekolwiki/index.php/TheKolWiki:General_disclaimer" title="TheKolWiki:General disclaimer">Disclaimers</a>		<br>© 2005 - 2014 <a href="http://coldfront.net/">Coldfront L.L.C.</a></div>
+
+	</td>
+    <td style="background-color:#ededed;">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/bottom_left.jpg" width="160" height="13"></td>
+    <td background="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/bottom.jpg"></td>
+    <td><img src="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/botoom_g.jpg" width="10" height="13"></td>
+    <td background="http://cdn.coldfront.net/thekolwiki/skins/monobook/images/bottom_right.jpg" style="background-repeat:no-repeat; background-position:right; background-color:#6386a8;"></td>
+  </tr>
+</table>
+<div align="center" class="coldfront">
+<a href="http://www.coldfront.net/about-coldfront">About Coldfront</a> | <a href="http://www.coldfront.net/privacy-policy">Privacy Policy</a>
+    </div>
+</p>
+<script src="/thekolwiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=monobook&amp;*"></script>
+<script>if ( window.mediaWiki ) {
+	mediaWiki.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Main_Page", "wgTitle": "Main Page", "wgAction": "edit", "wgArticleId": 1, "wgIsArticle": false, "wgUserName": "Mag", "wgUserGroups": ["sysop", "*", "user", "autoconfirmed"], "wgCurRevisionId": 416697, "wgCategories": [], "wgBreakFrames": true, "wgRestrictionEdit": ["sysop"], "wgRestrictionMove": ["sysop"]});
+}
+</script>
+<script>if ( window.mediaWiki ) {
+	mediaWiki.loader.load(["mediawiki.legacy.edit", "mediawiki.action.edit", "mediawiki.util", "mediawiki.legacy.wikibits", "mediawiki.legacy.ajax", "mediawiki.legacy.ajaxwatch"]);
+	mediaWiki.loader.go();
+}
+</script>
+
+<script>if ( window.mediaWiki ) { addButton("/thekolwiki/skins/common/images/button_bold.png","Bold text","\'\'\'","\'\'\'","Bold text","mw-editbutton-bold");
+addButton("/thekolwiki/skins/common/images/button_italic.png","Italic text","\'\'","\'\'","Italic text","mw-editbutton-italic");
+addButton("/thekolwiki/skins/common/images/button_link.png","Internal link","[[","]]","Link title","mw-editbutton-link");
+addButton("/thekolwiki/skins/common/images/button_extlink.png","External link (remember http:// prefix)","[","]","http://www.example.com link title","mw-editbutton-extlink");
+addButton("/thekolwiki/skins/common/images/button_headline.png","Level 2 headline","\n== "," ==\n","Headline text","mw-editbutton-headline");
+addButton("/thekolwiki/skins/common/images/button_image.png","Embedded file","[[File:","]]","Example.jpg","mw-editbutton-image");
+addButton("/thekolwiki/skins/common/images/button_media.png","File link","[[Media:","]]","Example.ogg","mw-editbutton-media");
+addButton("/thekolwiki/skins/common/images/button_nowiki.png","Ignore wiki formatting","\x3cnowiki\x3e","\x3c/nowiki\x3e","Insert non-formatted text here","mw-editbutton-nowiki");
+addButton("/thekolwiki/skins/common/images/button_sig.png","Your signature with timestamp","--~~~~","","","mw-editbutton-signature");
+addButton("/thekolwiki/skins/common/images/button_hr.png","Horizontal line (use sparingly)","\n----\n","","","mw-editbutton-hr");
+ }</script>
+<script src="/thekolwiki/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=monobook&amp;*"></script>
+<script>if ( window.mediaWiki ) {
+	mediaWiki.user.options.set({"ccmeonemails":0,"cols":80,"contextchars":50,"contextlines":5,"date":"0","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":1,"rcdays":7,"rclimit":50,"rememberpassword":"1","rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"monobook","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,
+	"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false});;mediaWiki.loader.state({"user.options":"ready"});
+}
+</script>
+</body>
+</html>
