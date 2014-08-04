@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import urllib2
 import re
-import unicodedata
 
 class Monster:
     def __init__(self, dataTable ):
@@ -16,6 +15,10 @@ class Monster:
         self.meat = dataTable[8]
         self.element = dataTable[9]
 
+    def printMonster():
+        print("Name: " + name)
+        print("")
+
 def pullData(url):
     dataTable = list()
     soup =  BeautifulSoup(urllib2.urlopen(url))
@@ -29,8 +32,9 @@ def pullData(url):
             dataTable.append(thisLI)
         if (i==9): #Cleaning up meat
             thisLI = li.text.split("=",1)
-            thisLI = str(thisLI).strip()
-            thisLI = "" + thisLI
+            thisLI = str(thisLI[0]).strip()
+            thisLI = thisLI[thisLI.find("-")+2:len(thisLI)]
+            dataTable.append(thisLI)
         i = i + 1
     dataTable[0] = (re.sub('^an* ', '', dataTable[0])) #removing 'a' and 'an' from entries
     dataTable[2] = "http://cdn.coldfront.net/thekolwiki/images/1/1b/" + (dataTable[2].strip('()')) #imageURL
