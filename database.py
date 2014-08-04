@@ -17,18 +17,18 @@ def __createDatabase():
 def __writeTable(thingList):
     if type(thingList[0]) is Monster:
         __writeMonsterTable()
-    elif type(thingList[0]) is Item:
-        __writeItemTable()
-    elif type(thingList[0]) is Zone:
-        __writeZoneTable()
-    elif type(thingList[0]) is Class: # might cause trouble?
-        __writeClassTable()
-    elif type(thingList[0]) is Skill:
-        __writeSkillTable()
-    elif type(thingList[0]) is Familiar:
-        __writeFamiliarTable()
-    elif type(thingList[0]) is Location:
-        __writeLocationTable()
+##    elif type(thingList[0]) is Item:
+##        __writeItemTable()
+##    elif type(thingList[0]) is Zone:
+##        __writeZoneTable()
+##    elif type(thingList[0]) is Class: # might cause trouble?
+##        __writeClassTable()
+##    elif type(thingList[0]) is Skill:
+##        __writeSkillTable()
+##    elif type(thingList[0]) is Familiar:
+##        __writeFamiliarTable()
+##    elif type(thingList[0]) is Location:
+##        __writeLocationTable()
     else:
         raise TypeError('Unexpected list object, type: ' + type(thingList[0]))
 
@@ -45,19 +45,19 @@ def __writeMonsterTable():
         # add monsters to table
         for monster in thingList:
             query = "INSERT INTO Monsters(id, name, hp, att, def, sm, init, ml, res, meat, phylum, element, description) VALUES(" \
-                    "'" + str (monster.getId) + "', " \
-                    "'" +  monster.getName + "', " \
-                    "'" + str (monster.getHp) + "', " \
-                    "'" + str (monster.getAtt) + "', " \
-                    "'" + str (monster.getDef) + "', " \
-                    "'" + str (monster.getSm) + "', " \
-                    "'" + str (monster.getInit) + "', " \
-                    "'" + str (monster.getMl) + "', " \
-                    "'" + monster.getRes + "', " \
-                    "'" + str (monster.getMeat) + "', " \
-                    "'" + monster.getPhylumn + "', " \
-                    "'" + monster.getElement + "', " \
-                    "'" + monster.getDescription + "')"           
+                    "'" + str (monster.id) + "', " \
+                    "'" +  monster.name + "', " \
+                    "'" + str (monster.hp) + "', " \
+                    "'" + str (monster.attack) + "', " \
+                    "'" + str (monster.defense) + "', " \
+                    "'" + str (monster.safeMoxie) + "', " \
+                    "'" + str (monster.initiative) + "', " \
+                    "'" + str (monster.attack) + "', " \
+                    "'" + monster.element + "', " \
+                    "'" + str (monster.meat) + "', " \
+                    "'" + monster.phylum + "', " \
+                    "'" + monster.element + "', " \
+                    "'" + monster.name + "')"
 
             cur.execute(query)
 

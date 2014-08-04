@@ -2,25 +2,39 @@ from bs4 import BeautifulSoup
 import urllib2
 import re
 
+TESTURL = "http://kol.coldfront.net/thekolwiki/index.php/Data:1335_HaXx0r"
+
 class Monster:
-    def __init__(self, dataTable ):
+    def __init__(self, dataTable, id):
         self.name = dataTable[0]
         self.phylum = dataTable[1]
         self.iURL = dataTable[2]
         self.hp = dataTable[3]
         self.attack = dataTable[4]
-        self.defence = dataTable[5]
+        self.defense = dataTable[5]
         self.safeMoxie = dataTable[6]
         self.initiative = dataTable[7]
         self.meat = dataTable[8]
         self.element = dataTable[9]
+        self.id = "1"+ str(id)
 
-    def printMonster():
-        print("Name: " + name)
-        print("")
+    def printMonster(self):
+        print("\n\n")
+        print("Name: " + self.name)
+        print("ID: " + self.id)
+        print("HP: " + self.hp)
+        print("Attack: " + self.attack)
+        print("Defense: " + self.defense)
+        print("Safe moxie: " + self.safeMoxie)
+        print("Initiative: " + self.initiative)
+        print("Meat: " + self.meat)
+        print("Element: " + self.element)
+        print("iURL: " + self.iURL)
+        print("Phylum: " + self.phylum)
 
 def pullData(url):
     dataTable = list()
+    print(url)
     soup =  BeautifulSoup(urllib2.urlopen(url))
     monsterDiv = soup.find("div", { "class" : "mw-content-ltr" })
     monsterLIs = monsterDiv.find_all("li")
@@ -42,12 +56,15 @@ def pullData(url):
 
 def main():
     monsterList = list()
-    monsterURLFile = open('monsterdataurls', 'r')
+    #monsterURLFile = open('monsterdataurls', 'r')
+    id = 10000
     #for line in monsterURLFile:
-    #    monsterList.append(Monster(pullData(line))
-    monsterURLFile.close()
-    print(pullData("http://kol.coldfront.net/thekolwiki/index.php/Data:1335_HaXx0r"))
-
+    #    monsterList.append(Monster(pullData(line),id))
+    #    id = id + 1
+    #monsterURLFile.close()
+    monsterList.append(Monster(pullData(TESTURL),id))
+    for monster in monsterList:
+        monster.printMonster()
 
 if __name__ == '__main__':
     main()
