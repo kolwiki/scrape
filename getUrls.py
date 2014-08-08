@@ -19,7 +19,6 @@ MONSTERURLS=[
 ]
 ITEMSTARTURL = "http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_(negative)"
 MAXITEMPAGES = 79 #79
-
 #-------------------------------------------------------------------------------
 #
 #                               MONSTER URLS
@@ -48,15 +47,11 @@ def writeMonsterURLs(pages,url_file,dataurl_file):
             url = "http://kol.coldfront.net" + (tds[i].next.get('href') + '\n')
             url_file.write(url)
             dataurl_file.write(url[:46] + 'Data:' + url[46:])
-
-
-
 #-------------------------------------------------------------------------------
 #
 #                                 ITEM URLS
 #
 #-------------------------------------------------------------------------------
-
 def getItemURLs():
     url_file = open(ITEMURLFILE, 'w')
     itemPages = getItemPages()
@@ -93,11 +88,9 @@ def writeItemURLs(pages, url_file):
         for link in itemTable.find_all('a'):
             url = "http://kol.coldfront.net" + link.get('href') + '\n'
             url_file.write(url)
-
 #-------------------------------------------------------------------------------
 #
 #-------------------------------------------------------------------------------
-
 def main():
     getMonsterURLs()
     getItemURLs()
