@@ -3,13 +3,14 @@ import collections
 import re
 import urllib2
 
-#TEST_PAGES = ['cold.html']
-TEST_PAGES = ['cold.html', 'mae.html']
-#TEST_PAGES = ['hat.html', 'shield.html']
-#TEST_PAGES = ['bling.html', 'slippers.html', 'flower.html']
-#TEST_PAGES = ['staff.html', 'slippers.html']
-
+TEST_PAGES = ['ore.html']
 soup = None
+
+###############################################################################################################
+#
+# Item classes
+#
+###############################################################################################################
 
 class Item(object):
     def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, location):
@@ -21,7 +22,12 @@ class Item(object):
         self.discardable = discardable
         self.questItem = questItem
         self.location = location
-        
+
+    def __str__(self):
+        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
+            '\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, self.tradable, 
+                                      self.discardable, self.questItem, self.location)
+
 class Gear(Item):
     def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, requirement, power, enchantment, 
                  location):
@@ -32,28 +38,29 @@ class Gear(Item):
 
     def __str__(self):
         return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
-            '\n{}\n{}\nEffect: {}\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, 
-                                                                self.tradable, self.discardable, self.questItem, self.requirement, 
-                                                                self.power, self.enchantment, self.location)
+            '\n{}\n{}\nEnchantment: {}\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, 
+                                                               self.tradable, self.discardable, self.questItem, self.requirement, 
+                                                               self.power, self.enchantment, self.location)
 
 class TurnGen(Item):
     def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, size, adventures, stats, 
-                 enchantment, quality, requirement, location):
+                 enchantment, duration, quality, requirement, location):
         super(TurnGen, self).__init__(name, description, itemType, sellPrice, tradable, discardable, questItem, location)
         self.size = size
         self.adventures = adventures
         self.stats = stats
         self.enchantment = enchantment
+        self.duration = duration
         self.quality = quality
         self.requirement = requirement
 
     def __str__(self):
         return 'Name: {}\nDescription: {}\nItem type: {}\nQuality: {}\nSize: {}\nLevel required: {}\nAdventures gained: {}' \
             '\nStats gained: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
-            '\nEnchantment: {}\nLocation: {}'.format(self.name, self.description, self.itemType, self.quality, self.size, 
-                                                     self.requirement, self.adventures, self.stats, self.sellPrice, 
-                                                     self.tradable, self.discardable, self.questItem, self.enchantment, 
-                                                     self.location)
+            '\nEffect: {}\nDuration: {}\nLocation: {}'.format(self.name, self.description, self.itemType, self.quality, self.size, 
+                                                              self.requirement, self.adventures, self.stats, self.sellPrice, 
+                                                              self.tradable, self.discardable, self.questItem, self.enchantment,
+                                                              self.duration, self.location)
 
 class Potion(Item):
     def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, enchantment, duration, location):
@@ -61,24 +68,57 @@ class Potion(Item):
         self.enchantment = enchantment
         self.duration = duration
 
+    def __str__(self):
+        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
+            '\nEnchantment: {}\nDuration: {}\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, 
+                                                               self.tradable, self.discardable, self.questItem, self.enchantment, 
+                                                               self.duration, self.location)
+
 class Usable(Item):
     def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, enchantment, location):
         super(Usable, self).__init__(name, description, itemType, sellPrice, tradable, discardable, questItem, location)
         self.enchantment = enchantment
 
+    def __str__(self):
+        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
+            '\nEnchantment: {}\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, 
+                                                       self.tradable, self.discardable, self.questItem, self.enchantment, 
+                                                       self.location)
+
 class Familiar(Item):
     def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, location):
         super(Familiar, self).__init__(name, description, itemType, sellPrice, tradable, discardable, questItem, location)
+
+    def __str__(self):
+        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
+            '\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, self.tradable, 
+                                      self.discardable, self.questItem, self.location)
     
 class Ingredients(Item):
     def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, location):
         super(Ingredients, self).__init__(name, description, itemType, sellPrice, tradable, discardable, questItem, location)
+
+    def __str__(self):
+        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
+            '\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, self.tradable, 
+                                      self.discardable, self.questItem, self.location)
+    
+
+###############################################################################################################
+#
+# Get methods 
+#
+###############################################################################################################
     
 def getName(soup):
     return str(soup.title.getText().split(' - ')[0])
 
 def getItemType(soup):
-    return soup.find(text=re.compile(r'Type: ')).next.getText()
+    type = soup.find(text=re.compile(r'Type: '))    
+    if type != None:
+        type = type.next.getText()
+
+    return type
 
 def getSellPrice(soup):   
     itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
@@ -100,14 +140,12 @@ def getDiscardable(soup):
 def getQuestItem(soup):
     return inItemStrings(soup, u'Quest Item')
 
+# TODO bug: this goes for first dl so breaks if there is an extra one eg from complaints etc
 def getLocation(soup):
     itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
     itemStrings = list(itemDiv.strings)
 
-    location = None
     location = soup.find('dl')
-
-    # TODO bug: this goes for first dl so breaks if there is an extra one eg from complaints etc
 
     if location != None:
         location = location.getText().encode('utf8').replace('\n','\n\t').strip()
@@ -208,6 +246,15 @@ def getStats(soup):
 def getTurnGenQuality(soup):
     return soup.find(text=re.compile(r'Type: ')).next.next.next.getText().strip()[1:-1]
 
+def getDuration(soup):
+    duration = None
+
+    durationIndex = stringIndex(soup, u'Duration: ')
+    if durationIndex != None:
+        duration = getItemString(soup, durationIndex + 1)
+
+    return duration
+    
 # returns index of given string in item details div, or None if not found
 def stringIndex(soup, string):
     itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
@@ -238,15 +285,31 @@ def printItemStrings(soup):
     itemStrings = list(itemDiv.strings)
     print itemStrings
 
+###############################################################################################################
+#
+# Pull methods
+#
+###############################################################################################################
+
 def pullItemData(url):
     soup = BeautifulSoup(open(url))
 
-    type = soup.find(text=re.compile(r'Type: ')).next.getText()
+    type = getItemType(soup)
 
-    if (type in ['accessory', 'back', 'shirt', 'hat', 'pants', 'offhand']) or ('handed' in type) or ('off-hand item' in type):
+    if (type == None):
+        return pullPlainItemData(soup)
+    elif (type in ['accessory', 'back', 'shirt', 'hat', 'pants', 'offhand']) or ('handed' in type) or ('off-hand item' in type):
         return pullGearData(soup)
     elif ('food' in type) or ('booze' in type):
         return pullTurnGenData(soup)
+    elif 'potion' in type:
+        return pullPotionData(soup)
+    elif 'usable' in type:
+        return pullUsableData(soup)
+    elif 'familiar' in type:
+        return pullFamiliarData(soup)
+    elif ('ingredient' in type) or ('Meatsmithing component' in type): # an item can something else as well as ingredient
+        return pullIngredientData(soup)
     else:
         raise TypeError('Unknown item type: ' + type)
 
@@ -257,12 +320,36 @@ def pullGearData(soup):
 
 # food/booze
 def pullTurnGenData(soup):    
-    tg = TurnGen(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), 
-                   getQuestItem(soup), getSize(soup), getAdventures(soup), getStats(soup), getEffect(soup), getTurnGenQuality(soup),
+    return TurnGen(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), 
+                   getQuestItem(soup), getSize(soup), getAdventures(soup), getStats(soup), getEffect(soup), getDuration(soup), getTurnGenQuality(soup),
                    getLevelRequirement(soup), getLocation(soup))
 
-    print tg
-    return tg
+# potion
+def pullPotionData(soup):
+    return Potion(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), 
+                   getQuestItem(soup), getEffect(soup), getDuration(soup), getLocation(soup))
+
+# usable
+def pullUsableData(soup):
+    pass
+
+# not usable
+def pullPlainItemData(soup):    
+    return Item(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), getQuestItem(soup), getLocation(soup))
+
+# familiar
+def pullFamiliarData(soup):
+    return Familiar(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), getQuestItem(soup), getLocation(soup))
+
+# ingredient
+def pullIngredientData(soup):
+    return Ingredient(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), getQuestItem(soup), getLocation(soup))
+
+###############################################################################################################
+#
+# Main method
+#
+###############################################################################################################
 
 def main():
     itemList = list()
@@ -272,8 +359,8 @@ def main():
     #monsterURLFile.close()
 
     for page in TEST_PAGES:
-        #print pullItemData(page)
-        pullItemData(page)
+        print pullItemData(page)
+        #pullItemData(page)
         print
 
 if __name__ == '__main__':
