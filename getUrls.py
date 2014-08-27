@@ -1,5 +1,6 @@
+#------------------------------------------------------------------------------
 #
-#Writes output files containing the URLs to kolwiki entries
+#Writes output files containing the URLs of all monsters and items from input
 #
 #-------------------------------------------------------------------------------
 from bs4 import BeautifulSoup
@@ -15,10 +16,17 @@ MONSTERURLS=[
 "http://kol.coldfront.net/thekolwiki/index.php/Monster_Compendium_(1_to_E)",
 "http://kol.coldfront.net/thekolwiki/index.php/Monster_Compendium_(F_to_M)",
 "http://kol.coldfront.net/thekolwiki/index.php/Monster_Compendium_(N_to_S)",
-"http://kol.coldfront.net/thekolwiki/index.php/Monster_Compendium_(T_to_Z)"
-]
-ITEMSTARTURL = "http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_(negative)"
+"http://kol.coldfront.net/thekolwiki/index.php/Monster_Compendium_(T_to_Z)"]
+ITEMSTARTURL = \
+"http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_(negative)"
+ITEMURL2 = \
+"http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_(1-99)"
+REGULARITEMURL = \
+"http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_(100-199)"
+BASEITEMURL = \
+"http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_("
 MAXITEMPAGES = 79 #79
+
 #-------------------------------------------------------------------------------
 #
 #                               MONSTER URLS
@@ -68,17 +76,14 @@ def getItemPages():
     return pages
 
 def getNextURL(inputURL):
-    if inputURL == \
-    "http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_(negative)":
-        return "http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_(1-99)"
-    elif inputURL == \
-    "http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_(1-99)":
-        return "http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_(100-199)"
+    if inputURL == ITEMSTARTURL:
+        return ITEMURL2
+    elif inputURL == ITEMURL2:
+        return REGULARITEMURL
     else:
         pageNumbers = ((inputURL.rsplit("(")[1]).split(")")[0]).split('-')
         pageNumbers = map(lambda x: str(int(x)+100), pageNumbers)
-        return ("http://kol.coldfront.net/thekolwiki/index.php/Items_by_number_(" \
-     + pageNumbers[0] + "-" + pageNumbers[1]) + ")"
+        return (BASEITEMURL + pageNumbers[0] + "-" + pageNumbers[1]) + ")"
 
 def writeItemURLs(pages, url_file):
     for aPage in pages:
