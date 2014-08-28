@@ -6,7 +6,7 @@ DATABASE_NAME = "test.db"
 
 # 'main' method
 def createTable(thingList):
-#    __createDatabase()
+    __createDatabase()
     __writeTable(thingList)
 
 # creates db file if it doesn't already exist
@@ -42,40 +42,26 @@ def __writeMonsterTable(thingList):
 
         # create monster table, deleting previous version if it exists
         cur.execute("DROP TABLE IF EXISTS Monsters")
-        cur.execute("CREATE TABLE Monsters(id INT PRIMARY KEY, name TEXT, hp INT, att INT, def INT, sm INT, init INT, ml INT, res TEXT, meat REAL, phylum TEXT, element TEXT, description TEXT)")
+        cur.execute("CREATE TABLE Monsters(id INT PRIMARY KEY, name TEXT, descr TEXT, hp INT, att INT, def INT, sm INT, init INT, ml INT, res TEXT, meat REAL, phylum TEXT, element TEXT, url TEXT, location TEXT, items TEXT)")
 
-        # # add monsters to table
-        # for monster in thingList:
-        #     query = "INSERT INTO Monsters(id, name, hp, att, def, sm, init, ml, res, meat, phylum, element, description) VALUES(" \
-        #             "'" + str (monster.id) + "', " \
-        #             "'" +  monster.name + "', " \
-        #             "'" + str (monster.hp) + "', " \
-        #             "'" + str (monster.attack) + "', " \
-        #             "'" + str (monster.defense) + "', " \
-        #             "'" + str (monster.safeMoxie) + "', " \
-        #             "'" + str (monster.initiative) + "', " \
-        #             "'" + str (monster.attack) + "', " \
-        #             "'" + monster.element + "', " \
-        #             "'" + str (monster.meat) + "', " \
-        #             "'" + monster.phylum + "', " \
-        #             "'" + monster.element + "', " \
-        #             "'" + monster.name + "')"
-        
         for monster in thingList:
-            query = 'INSERT INTO Monsters(id, name, hp, att, def, sm, init, ml, res, meat, phylum, element, description) VALUES(' \
+            query = 'INSERT INTO Monsters(id, name, descr, hp, att, def, sm, init, ml, res, meat, phylum, element, url, location, items) VALUES(' \
                     '"' + str (monster.id) + '", ' \
                     '"' +  monster.name + '", ' \
+                    '"", ' \
                     '"' + str (monster.hp) + '", ' \
                     '"' + str (monster.attack) + '", ' \
                     '"' + str (monster.defense) + '", ' \
                     '"' + str (monster.safeMoxie) + '", ' \
                     '"' + str (monster.initiative) + '", ' \
                     '"' + str (monster.attack) + '", ' \
-                    '"' + monster.element + '", ' \
+                    '"' + monster.physicalRes + '", ' \
                     '"' + str (monster.meat) + '", ' \
                     '"' + monster.phylum + '", ' \
                     '"' + monster.element + '", ' \
-                    '"' + monster.name + '")'
+                    '"' + monster.iURL + '", ' \
+                    '"' + monster.location + '", ' \
+                    '"' + monster.items + '")'
         
             print query
             cur.execute(query)
