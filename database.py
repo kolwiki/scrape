@@ -7,15 +7,28 @@ DATABASE_NAME = "test.db"
 # 'main' method
 def createTable(thingList):
     __createDatabase()
-    __writeTable(thingList)
+    __createAndroidMetadataTable()
+    __createTable(thingList)
 
 # creates db file if it doesn't already exist
 def __createDatabase():
     if os.path.exists(DATABASE_NAME):
         os.remove(DATABASE_NAME)
 
-# writes table by calling appropriate method for table type
-def __writeTable(thingList):
+# creates required Android metadata table
+def __createAndroidMetadataTable():
+    con = sqlite3.connect(DATABASE_NAME)
+
+    with con:
+        cur = con.cursor()
+
+        # id table, deleting previous version if it exists
+        cur.execute('DROP TABLE IF EXISTS android_metadata')
+        cur.execute('CREATE TABLE "android_metadata" ("locale" TEXT DEFAULT \'en_US\')')
+        cur.execute('INSERT INTO "android_metadata" VALUES (\'en_US\')')
+
+# create table by calling appropriate method for table type
+def __createTable(thingList):
     if type(thingList[0]).__name__ == 'Monster':
         __writeMonsterTable(thingList)
     elif type(thingList[0]).__name__ == 'Item':
@@ -42,13 +55,13 @@ def __writeMonsterTable(thingList):
 
         # create monster table, deleting previous version if it exists
         cur.execute("DROP TABLE IF EXISTS Monsters")
-        cur.execute("CREATE TABLE Monsters(id INT PRIMARY KEY, name TEXT, descr TEXT, hp INT, att INT, def INT, sm INT, init INT, ml INT, res TEXT, meat REAL, phylum TEXT, element TEXT, url TEXT, location TEXT, items TEXT)")
+        cur.execute("CREATE TABLE Monsters(_id INT PRIMARY KEY, name TEXT, descr TEXT, hp INT, att INT, def INT, sm INT, init INT, ml INT, res TEXT, meat REAL, phylum TEXT, element TEXT, url TEXT, location TEXT, items TEXT)")
 
         for monster in thingList:
-            query = 'INSERT INTO Monsters(id, name, descr, hp, att, def, sm, init, ml, res, meat, phylum, element, url, location, items) VALUES(' \
+            query = 'INSERT INTO Monsters(_id, name, descr, hp, att, def, sm, init, ml, res, meat, phylum, element, url, location, items) VALUES(' \
                     '"' + str (monster.id) + '", ' \
-                    '"' +  monster.name + '", ' \
-                    '"", ' \
+                    '"' + monster.name + '", ' \
+                    '"' + monster.description + '", ' \
                     '"' + str (monster.hp) + '", ' \
                     '"' + str (monster.attack) + '", ' \
                     '"' + str (monster.defense) + '", ' \
