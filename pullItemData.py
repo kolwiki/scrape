@@ -22,87 +22,100 @@ class Item(object):
         self.discardable = discardable
         self.questItem = questItem
         self.location = location
+        self.requirement = ''
+        self.power = ''
+        self.echantment = ''
+        self.size = ''
+        self.adventures = ''
+        self.stats = ''
+        self.enchantment = ''
+        self.duration = ''
+        self.quality = ''
 
     def __str__(self):
         return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
-            '\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, self.tradable, 
-                                      self.discardable, self.questItem, self.location)
+            '\nLocation: {}\nRequirement: {}\nPower: {}\nSize: {}\nAdventures: {}\nStats: {}\nEnchantment: {}\nDuration: {}' \
+            '\nQuality: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, self.tradable, 
+                                     self.discardable, self.questItem, self.location, self.requirement, self.power, 
+                                     self.size, self.adventures, self.stats, self.enchantment, self.duration, self.quality)
 
-class Gear(Item):
-    def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, requirement, power, enchantment, 
-                 location):
-        super(Gear, self).__init__(name, description, itemType, sellPrice, tradable, discardable, questItem, location)
-        self.requirement = requirement
-        self.power = power
-        self.enchantment = enchantment
+###############################################################################################################
+#
+# Pull methods
+#
+###############################################################################################################
 
-    def __str__(self):
-        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
-            '\n{}\n{}\nEnchantment: {}\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, 
-                                                               self.tradable, self.discardable, self.questItem, self.requirement, 
-                                                               self.power, self.enchantment, self.location)
+def pullItemData(url):
+    soup = BeautifulSoup(open(url))
 
-class TurnGen(Item):
-    def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, size, adventures, stats, 
-                 enchantment, duration, quality, requirement, location):
-        super(TurnGen, self).__init__(name, description, itemType, sellPrice, tradable, discardable, questItem, location)
-        self.size = size
-        self.adventures = adventures
-        self.stats = stats
-        self.enchantment = enchantment
-        self.duration = duration
-        self.quality = quality
-        self.requirement = requirement
+    type = getItemType(soup)
 
-    def __str__(self):
-        return 'Name: {}\nDescription: {}\nItem type: {}\nQuality: {}\nSize: {}\nLevel required: {}\nAdventures gained: {}' \
-            '\nStats gained: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
-            '\nEffect: {}\nDuration: {}\nLocation: {}'.format(self.name, self.description, self.itemType, self.quality, self.size, 
-                                                              self.requirement, self.adventures, self.stats, self.sellPrice, 
-                                                              self.tradable, self.discardable, self.questItem, self.enchantment,
-                                                              self.duration, self.location)
+    if (type == None):
+        return pullUnusableData(soup)
+    elif (type in ['accessory', 'back', 'shirt', 'hat', 'pants', 'offhand']) or ('handed' in type) or ('off-hand item' in type):
+        return pullGearData(soup)
+    elif ('food' in type) or ('booze' in type):
+        return pullTurnGenData(soup)
+    elif 'potion' in type:
+        return pullPotionData(soup)
+    elif 'usable' in type:
+        return pullUsableData(soup)
+    elif 'familiar' in type:
+        return pullFamiliarData(soup)
+    elif ('ingredient' in type) or ('Meatsmithing component' in type): # an item can something else as well as ingredient
+        return pullIngredientData(soup)
+    else:
+        raise TypeError('Unknown item type: ' + type)
 
-class Potion(Item):
-    def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, enchantment, duration, location):
-        super(Potion, self).__init__(name, description, itemType, sellPrice, tradable, discardable, questItem, location)
-        self.enchantment = enchantment
-        self.duration = duration
+# gear
+def pullGearData(soup):
+    item = Item(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), 
+                getDiscardable(soup), getQuestItem(soup), getLocation(soup))
+    item.requirement = getRequirement(soup)
+    item.power = getPower(soup)
+    item.enchantment = getEnchantment(soup)
+    return item
 
-    def __str__(self):
-        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
-            '\nEnchantment: {}\nDuration: {}\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, 
-                                                               self.tradable, self.discardable, self.questItem, self.enchantment, 
-                                                               self.duration, self.location)
+# food/booze
+def pullTurnGenData(soup):    
+    item = Item(getName(soup), getDescription(soup), 'Turn Gen', getSellPrice(soup), getTradable(soup), 
+                getDiscardable(soup), getQuestItem(soup), getLocation(soup))
+    item.size = getSize(soup)
+    item.adventures = getAdventures(soup)
+    item.stats = getStats(soup)
+    item.enchantment = getEffect(soup)
+    item.duration = getDuration(soup)
+    item.quality = getTurnGenQuality(soup)
+    items.requirement = getLevelRequirement(soup)
+    return item
 
-class Usable(Item):
-    def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, enchantment, location):
-        super(Usable, self).__init__(name, description, itemType, sellPrice, tradable, discardable, questItem, location)
-        self.enchantment = enchantment
+# potion
+def pullPotionData(soup):
+    item = Item(getName(soup), getDescription(soup), 'Potion', getSellPrice(soup), getTradable(soup), 
+                getDiscardable(soup), getQuestItem(soup), getLocation(soup))
+    item.enchantment = getEffect(soup)
+    item.duration = getDuration(soup)
+    return item
 
-    def __str__(self):
-        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
-            '\nEnchantment: {}\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, 
-                                                       self.tradable, self.discardable, self.questItem, self.enchantment, 
-                                                       self.location)
+# unusable
+def pullUnusableData(soup):
+    return Item(getName(soup), getDescription(soup), 'Unusable', getSellPrice(soup), getTradable(soup), 
+                getDiscardable(soup), getQuestItem(soup), getLocation(soup))
 
-class Familiar(Item):
-    def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, location):
-        super(Familiar, self).__init__(name, description, itemType, sellPrice, tradable, discardable, questItem, location)
+# usable
+def pullUsableData(soup):
+    return Item(getName(soup), getDescription(soup), 'Usable', getSellPrice(soup), getTradable(soup), 
+                getDiscardable(soup), getQuestItem(soup), getLocation(soup))
 
-    def __str__(self):
-        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
-            '\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, self.tradable, 
-                                      self.discardable, self.questItem, self.location)
-    
-class Ingredients(Item):
-    def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, location):
-        super(Ingredients, self).__init__(name, description, itemType, sellPrice, tradable, discardable, questItem, location)
+# familiar
+def pullFamiliarData(soup):
+    return Item(getName(soup), getDescription(soup), 'Familiar', getSellPrice(soup), getTradable(soup), 
+                getDiscardable(soup), getQuestItem(soup), getLocation(soup))
 
-    def __str__(self):
-        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
-            '\nLocation: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, self.tradable, 
-                                      self.discardable, self.questItem, self.location)
-    
+# ingredient
+def pullIngredientData(soup):
+    return Item(getName(soup), getDescription(soup), 'Ingredient', getSellPrice(soup), getTradable(soup), 
+                getDiscardable(soup), getQuestItem(soup), getLocation(soup))
 
 ###############################################################################################################
 #
@@ -284,66 +297,6 @@ def printItemStrings(soup):
     itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
     itemStrings = list(itemDiv.strings)
     print itemStrings
-
-###############################################################################################################
-#
-# Pull methods
-#
-###############################################################################################################
-
-def pullItemData(url):
-    soup = BeautifulSoup(open(url))
-
-    type = getItemType(soup)
-
-    if (type == None):
-        return pullPlainItemData(soup)
-    elif (type in ['accessory', 'back', 'shirt', 'hat', 'pants', 'offhand']) or ('handed' in type) or ('off-hand item' in type):
-        return pullGearData(soup)
-    elif ('food' in type) or ('booze' in type):
-        return pullTurnGenData(soup)
-    elif 'potion' in type:
-        return pullPotionData(soup)
-    elif 'usable' in type:
-        return pullUsableData(soup)
-    elif 'familiar' in type:
-        return pullFamiliarData(soup)
-    elif ('ingredient' in type) or ('Meatsmithing component' in type): # an item can something else as well as ingredient
-        return pullIngredientData(soup)
-    else:
-        raise TypeError('Unknown item type: ' + type)
-
-# gear
-def pullGearData(soup):
-    return Gear(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), 
-                getQuestItem(soup), getRequirement(soup), getPower(soup), getEnchantment(soup), getLocation(soup))
-
-# food/booze
-def pullTurnGenData(soup):    
-    return TurnGen(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), 
-                   getQuestItem(soup), getSize(soup), getAdventures(soup), getStats(soup), getEffect(soup), getDuration(soup), getTurnGenQuality(soup),
-                   getLevelRequirement(soup), getLocation(soup))
-
-# potion
-def pullPotionData(soup):
-    return Potion(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), 
-                   getQuestItem(soup), getEffect(soup), getDuration(soup), getLocation(soup))
-
-# usable
-def pullUsableData(soup):
-    pass
-
-# not usable
-def pullPlainItemData(soup):    
-    return Item(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), getQuestItem(soup), getLocation(soup))
-
-# familiar
-def pullFamiliarData(soup):
-    return Familiar(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), getQuestItem(soup), getLocation(soup))
-
-# ingredient
-def pullIngredientData(soup):
-    return Ingredient(getName(soup), getDescription(soup), getItemType(soup), getSellPrice(soup), getTradable(soup), getDiscardable(soup), getQuestItem(soup), getLocation(soup))
 
 ###############################################################################################################
 #
