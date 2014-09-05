@@ -3,17 +3,17 @@ import collections
 import re
 import urllib2
 
-TEST_PAGES = ['ore.html']
-soup = None
+TEST_PAGES = ['ore.html', 'hat.html', 'shield.html', 'flask.html']
 
 ###############################################################################################################
 #
-# Item classes
+# Item class
 #
 ###############################################################################################################
 
 class Item(object):
     def __init__(self, name, description, itemType, sellPrice, tradable, discardable, questItem, location):
+        self.id = -1
         self.name = name
         self.description = description
         self.itemType = itemType
@@ -24,7 +24,6 @@ class Item(object):
         self.location = location
         self.requirement = ''
         self.power = ''
-        self.echantment = ''
         self.size = ''
         self.adventures = ''
         self.stats = ''
@@ -33,9 +32,9 @@ class Item(object):
         self.quality = ''
 
     def __str__(self):
-        return 'Name: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
+        return 'Name: {}\nId: {}\nDescription: {}\nItem type: {}\nSelling price: {}\nTradable: {}\nDiscardable: {}\nQuest item: {}' \
             '\nLocation: {}\nRequirement: {}\nPower: {}\nSize: {}\nAdventures: {}\nStats: {}\nEnchantment: {}\nDuration: {}' \
-            '\nQuality: {}\n'.format(self.name, self.description, self.itemType, self.sellPrice, self.tradable, 
+            '\nQuality: {}\n'.format(self.name, self.id, self.description, self.itemType, self.sellPrice, self.tradable, 
                                      self.discardable, self.questItem, self.location, self.requirement, self.power, 
                                      self.size, self.adventures, self.stats, self.enchantment, self.duration, self.quality)
 
@@ -134,9 +133,7 @@ def getItemType(soup):
     return type
 
 def getSellPrice(soup):   
-    itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
-    itemStrings = list(itemDiv.strings)
- 
+    itemStrings = getItemStrings(soup) 
     sellPrice = None
     priceIndex = stringIndex(soup, u'Selling Price: ')
     if priceIndex != None:
@@ -155,11 +152,7 @@ def getQuestItem(soup):
 
 # TODO bug: this goes for first dl so breaks if there is an extra one eg from complaints etc
 def getLocation(soup):
-    itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
-    itemStrings = list(itemDiv.strings)
-
     location = soup.find('dl')
-
     if location != None:
         location = location.getText().encode('utf8').replace('\n','\n\t').strip()
 
@@ -198,10 +191,7 @@ def getPower(soup):
 # TODO needs fixing eg. 'cold.html'
 def getDescription(soup):
     name = str(soup.title.getText().split(' - ')[0])
-
-    itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
-    itemStrings = list(itemDiv.strings)
-
+    itemStrings = getItemStrings(soup)
     lowerStrings = [string.lower() for string in itemStrings]
     return itemStrings[lowerStrings.index(name.lower()) + 1].strip()
 
@@ -267,36 +257,28 @@ def getDuration(soup):
         duration = getItemString(soup, durationIndex + 1)
 
     return duration
-    
-# returns index of given string in item details div, or None if not found
-def stringIndex(soup, string):
+
+# returns the list of all item detail strings
+def getItemStrings(soup):
     itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
-    itemStrings = list(itemDiv.strings)
+    return list(itemDiv.strings)
 
-    if string in itemStrings:                        
-        return itemStrings.index(string)
-    else:
-        return None
-
-# returns a given string from the list of detail strings
+# returns a given string from the list of item detail strings
 def getItemString(soup, index):
-    itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
-    itemStrings = list(itemDiv.strings)
-
-    return itemStrings[index]
+    return getItemStrings(soup)[index]
 
 # checks if a given string is in list of item detail strings
 def inItemStrings(soup, string):
-    itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
-    itemStrings = list(itemDiv.strings)
+    return string in getItemStrings(soup)
 
-    return string in itemStrings
+# returns index of given string in item details div, or None if not found
+def stringIndex(soup, string):
+    itemStrings = getItemStrings(soup)
 
-# debug
-def printItemStrings(soup):
-    itemDiv = soup.find('div', { 'id' : 'mw-content-text' }).find('div')
-    itemStrings = list(itemDiv.strings)
-    print itemStrings
+    if string in itemStrings:
+        return itemStrings.index(string)
+    else:
+        return None
 
 ###############################################################################################################
 #
@@ -306,16 +288,23 @@ def printItemStrings(soup):
 
 def main():
     itemList = list()
+
+    id = 200000
+
     #monsterURLFile = open('monsterdataurls', 'r')
     #for line in monsterURLFile:
     #    monsterList.append(Monster(pullData(line))
     #monsterURLFile.close()
 
     for page in TEST_PAGES:
-        print pullItemData(page)
-        #pullItemData(page)
-        print
+        item = pullItemData(page)
+        item.id = id
+        print item
+        itemList.append(item)
+        id += 1
 
+    return itemList
+       
 if __name__ == '__main__':
     main()
 

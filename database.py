@@ -1,6 +1,7 @@
 import os
-import sqlite3
+import pullItemData
 import pullMonsterData
+import sqlite3
 
 DATABASE_NAME = "test.db"
 
@@ -32,9 +33,9 @@ def __createTable(thingList):
     if type(thingList[0]).__name__ == 'Monster':
         __writeMonsterTable(thingList)
     elif type(thingList[0]).__name__ == 'Item':
-        __writeItemTable()
+        __writeItemTable(thingList)
     elif type(thingList[0]).__name__ == 'Zone':
-        __writeZoneTable()
+        __writeZoneTable(thingList)
     elif type(thingList[0]).__name__ == 'Class': # might cause trouble'?
         __writeClassTable()
     elif type(thingList[0]).__name__ == 'Skill':
@@ -79,8 +80,40 @@ def __writeMonsterTable(thingList):
             print query
             cur.execute(query)
 
-def __writeItemTable():
-    pass
+def __writeItemTable(thingList):
+
+    con = sqlite3.connect(DATABASE_NAME)
+
+    with con:
+        cur = con.cursor()
+
+        # create item table, deleting previous version if it exists
+        cur.execute('DROP TABLE IF EXISTS Items')
+        cur.execute('CREATE TABLE Items(_id INT PRIMARY KEY, name TEXT, type TEXT, descr TEXT, sellPrice INT, tradable TEXT, discardable TEXT, questItem TEXT, location TEXT, requirement TEXT, power INT, size INT, adventures INT, ' \
+                    'stats TEXT, enchantment TEXT, duration TEXT, quality TEXT)')
+
+        for item in thingList:
+            query = 'INSERT INTO Items(_id, name, type, descr, sellPrice, tradable, discardable, questItem, location, requirement, power, size, adventures, stats, enchantment, duration, quality ) VALUES(' \
+                    '"' + str (item.id) + '", ' \
+                    '"' + item.name + '", ' \
+                    '"' + item.itemType + '", ' \
+                    '"' + item.description + '", ' \
+                    '"' + str (item.sellPrice) + '", ' \
+                    '"' + str (item.tradable) + '", ' \
+                    '"' + str (item.discardable) + '", ' \
+                    '"' + str (item.questItem) + '", ' \
+                    '"' + item.location + '", ' \
+                    '"' + item.requirement + '", ' \
+                    '"' + str (item.power) + '", ' \
+                    '"' + str (item.size) + '", ' \
+                    '"' + item.adventures + '", ' \
+                    '"' + item.stats + '", ' \
+                    '"' + item.enchantment + '", ' \
+                    '"' + str (item.duration) + '", ' \
+                    '"' + item.quality + '")'
+        
+            print query
+            cur.execute(query)
 
 def __writeZoneTable():
     pass
